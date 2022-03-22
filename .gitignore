@@ -1,0 +1,19 @@
+.next
+node_modules
+
+
+As i said, we are learning reactjs in our last internal meeting. 
+So, we have created a latest version of TinderU website in SSR PWA web app based on
+React js.
+
+We have implemented some preety cool features/functionality in it like PWA - 
+our website is not just a website, we can install it as an app too.
+
+it will be super fast and gives the seamless experience.
+
+Another functionality we have implemented is realtime functionality/experince like
+facebook/chat or instagram.
+
+
+
+

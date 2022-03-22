@@ -1,0 +1,4426 @@
+
+
+body {
+    font-family: 'Proxima Nova Lt'  !important;
+	padding:0 !important;
+}
+
+
+
+@font-face {
+    font-family: 'Proxima Nova Th';
+    src: url('/fontsprximn/ProximaNova-Extrabld.woff2') format('woff2'),
+        url('/fontsprximn/ProximaNova-Extrabld.woff') format('woff'),
+        url('/fontsprximn/ProximaNova-Extrabld.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('/fontsprximn/ProximaNova-Semibold.woff2') format('woff2'),
+        url('/fontsprximn/ProximaNova-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Proxima Nova Alt Rg';
+    src: url('/fontsprximn/ProximaNovaA-Bold.woff2') format('woff2'),
+        url('/fontsprximn/ProximaNovaA-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('/fontsprximn/ProximaNova-Bold.woff2') format('woff2'),
+        url('/fontsprximn/ProximaNova-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('/fontsprximn/ProximaNova-Regular.woff') format('woff2'),
+        url('/fontsprximn/ProximaNova-Regular.woff2') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body {
+    font-family: 'Proxima Nova Lt';
+}
+
+
+.tinderhmbanner {
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+}
+
+.tinderhmbanner .desktopqual {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+}
+
+.midcontents img {
+    width: 414px;
+    margin: auto;
+}
+
+.transpabuts {
+    display: inline-block;
+    margin: 50px 0 0;
+    padding: 11px;
+    border: 2px solid #fff;
+    width: 200px;
+    margin: 50px auto auto;
+    border-radius: 39px;
+    color: #fff;
+    font-size: 20px;
+	transition: all ease-out 0.6s;
+}
+
+.transpabuts:hover{
+	text-decoration:none;
+	color:#fff;
+	    background-image: -webkit-linear-gradient( 
+0deg , #070d55bd, #070d55c9, #26115ac9, #46145fba, #46145fba, #46145fba, #dc2478ad, #ed267bc2,#fa267cc4,#fa267cbf );
+}
+
+
+.tinderhmbanner .transpabuts {
+    background: #ffffffc2;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    padding: 11px;
+    font-family: 'Proxima Nova Rg';
+	animation: change-background 2s ease-in-out infinite;
+}
+
+.stpformares .form-group i:after {content: "";width: 3px;height: 123%;border-left: 2px solid;transform: rotate(45deg);position: absolute;left: 8px;top: -2px;}
+.stpformares .form-group.active i:after {content: "";width: 3px;height: 123%;border-left: 2px solid #0000;transform: rotate(45deg);position: absolute;left: 8px;top: -2px;}
+
+
+@keyframes change-background {
+    
+	0% {  
+          background: #ffffffc2;
+    }
+
+    50% {
+        /* background: #ff008e85; */
+		background:#afaaaabd;
+    }
+
+    100% {
+          background: #ffffffc2;
+    }
+}
+
+/*.tinderhmbanner .transpabuts:hover {
+    background: #fb277c;
+    color: #fff;
+    transition: all ease 0.5s;
+    background-image: -webkit-linear-gradient( 
+0deg , #070d55bd, #070d55c9, #26115ac9, #46145fba, #46145fba, #46145fba, #dc2478ad, #ed267bc2,#fa267cc4,#fa267cbf );
+}*/
+
+.collrges {
+    width: 100%;
+    text-align: center;
+    padding-top: 23px;
+}
+
+.collrges .dektpshow {
+    width: 100%;
+}
+
+.lightgrys{
+	    background: #f8f8f8;
+		 padding: 58px 0;
+}
+
+
+.mainheadstop .subhdblack {
+    font-family: 'Proxima Nova Th';
+    font-size: 52px;
+}
+
+.mainheadstop .subhdblack .tuhds {
+    width: 127px;
+    margin-bottom: 21px;
+}
+
+
+/* drak part second section */
+
+
+.grdpinbgsa {
+    background-image: -webkit-linear-gradient( 
+41deg
+ , #070d55, #070d55, #26115a, #46145f, #8b1b6b, #bd2173, #dc2478, #ed267b,#fa267c,#fa267c );
+    padding: 58px 0;
+}
+
+.darktct .mainheadstop .subhdblack {
+    color: #fff;
+	margin-bottom: 42px;
+}
+
+.darktct .mainheadstop .subhdblack span img {
+    width: 154px;
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+}
+
+.darktct .mainheadstop .subhdblack span {
+    position: relative;
+}
+
+.mainheadstop .subhdblack .tumntors {
+    width: 163px;
+    margin-bottom: 16px;
+}
+
+.meetourmnt .mainheadstop .subhdblack .tumntors {
+    width: 198px;
+} 
+
+.darktct .taglnsd {
+    color: #fff;
+	    font-size: 16px;
+}
+
+.darktct .taglnsd.ftimps {
+    font-size: 25px;
+    font-family: 'Proxima Nova Lt';
+}
+
+.mentorsslidars {
+    padding-top: 30px;
+}
+
+/* drak part second end here section */
+
+.mainheadstop .subhdblack.pnkhd {
+    color: #ff0e94;
+	 
+}
+
+.collargeares .mainheadstop .subhdblack.pnkhd {
+	   line-height: 56px;
+}
+
+.mainheadstop .subhdblack.pnkhd .slyngd {
+    width: 172px;
+    margin-bottom: 21px;
+}
+
+
+/* collarge parts */
+
+.collargeswithtab {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.collargeswithtab ul.nav-pills {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.collargeswithtab ul.nav-pills li.nav-item {
+    display: inline-block;
+    margin: auto 51px;
+}
+
+.collargeswithtab ul.nav-pills li.nav-item .nav-link {
+    background: transparent;
+    color: #b2b2b2;
+    height: auto;
+    padding: 0;
+    font-size: 19px;
+    font-family: 'Proxima Nova Th';
+}
+
+.collargeswithtab ul.nav-pills li.nav-item .nav-link.active {
+    color: #000;
+}
+
+.imgclgcent {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.imgclgcent img {
+    border: 6px solid #ff008e;
+    max-width: 485px;
+    transform: rotate(0deg);
+}
+
+.tndighere .mainheadstop .subhdblack {}
+
+.tndighere .mainheadstop .subhdblack .emohsa {
+    position: relative;
+    width: 29px;
+    top: -13px;
+    bottom: 0;
+}
+
+.igfeedous img {
+    width: 100%;
+}
+
+.followmids {
+    text-align: center;
+}
+
+.mainheadstop {
+    text-align: center;
+}
+
+
+.tinderhmbanner .mobilequal {
+    display: none;
+}
+
+/* footer css */
+
+.blackpart {
+    background: #000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.blackpart ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+	display:block;
+}
+
+.blackpart ul li {
+    display: inline-block;
+    margin: auto 10%;
+	position: relative;
+    text-align: center;
+}
+
+.blackpart ul li .hvrbtn {
+    position: absolute;
+    top: -54px;
+    left: -37px;
+    right: 0;
+    margin: auto;
+    width: 100px;
+   /* background: #ff008e;
+    color: #fff; */
+	    background: #fff;
+    color: #ff008e;
+    padding: 3px 0;
+    border-radius: 21px;
+    font-family: 'Proxima Nova Lt';
+    font-size: 14px;
+	opacity: 1;
+    visibility: visible;
+    transition: all ease 0.5s;
+	animation: cssAnimation 1s 4s forwards;
+	box-shadow: #00000014 -1px 5px 6px 1px;
+}
+
+.blackpart ul li .hvrbtn:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    /*border-top: 10px solid #ff008e; */
+	border-top: 10px solid #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -9px;
+    margin: auto;
+}
+
+.blackpart ul li.logcur:nth-child(3) .hvrbtn{
+	    animation: cssAnimationhvr 1s 2s forwards;
+	 opacity: 1;
+    visibility: visible;
+}
+
+.blackpart ul li:nth-child(1) .hvrbtn,
+.blackpart ul li:nth-child(2) .hvrbtn,
+.blackpart ul li:nth-child(3) .hvrbtn.noanims{
+	    animation: cssAnimationhvr 1s 2s forwards;
+	 opacity: 1;
+    visibility: visible;
+}
+
+.blackpart ul li:nth-child(3) .hvrbtn {
+   animation: cssAnimation 7s 3s forwards infinite;
+    opacity: 1;
+    visibility: visible;
+}
+
+.blackpart ul li .hvrbtn {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sitefootes {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9;
+	left: 0;
+}
+
+.blackpart ul li a img {
+    width: 25px;
+    filter: brightness(0%) invert(1);
+}
+
+.blackpart ul li:nth-child(3) img {
+    width: 23px;
+}
+
+.blackpart ul li.active a img {
+    filter: inherit;
+}
+
+.collrges .mobshow {
+    display: none;
+}
+
+
+
+/* footer css */
+
+.tndighere {
+    margin-bottom: 48px;
+}
+
+.blackpart ul li.active .hvrbtn {
+    opacity: 1;
+    visibility: visible;
+    animation: cssAnimationhvr 1s 2s forwards;
+}
+
+@keyframes cssAnimationhvr {
+   0%   {opacity: 1;}
+    50%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes cssAnimation {
+   0%   {opacity: 1;}
+    50%  {opacity: 1;}
+     60%  {opacity: 1;}
+ 70%  {opacity: 0;}
+ 80%  {opacity: 0;}
+ 90%  {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.threegridscrls img {
+    width: 100%;
+}
+
+.mobsldsshow {
+    display: none;
+}
+
+
+/* Our vive page */
+
+.mainheadstop .subhdblack.smallbdtx {
+    font-size: 25px;
+}
+
+.mainheadstop .subhdblack.smallbdtx .emojs {
+    position: relative;
+    width: 26px;
+    top: -8px;
+    margin: 0 4px;
+}
+
+.partyare {
+    padding-bottom: 0;
+}
+
+.innercomnity.darktct .mainheadstop .subhdblack.commnty {
+    margin-bottom: 29px;
+    font-size: 42px;
+}
+
+.innercomnity.darktct .mainheadstop .subhdblack.commnty span img {
+    width: 164px;
+    left: 20px;
+}
+
+.darktct.innercomnity .bolemojis {
+    font-size: 25px;
+    margin: 0;
+    line-height: 27px;
+}
+
+.darktct.innercomnity .bolemojis .emojs {
+    width: 22px;
+}
+
+.darktct.innercomnity .mobsldsshow {
+    display: block;
+}
+
+.mntaresflvibe.owl-carousel.owl-theme .item .mobilesbs {
+    display: none;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #e42579;
+}
+
+.grdpinbgsa.darktct.innercomnity {
+    padding-bottom: 33px;
+}
+
+.icontxctnpats {
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+
+.iconinfos p {
+    font-family: 'Proxima Nova Rg';
+    font-size: 18px;
+}
+
+.icnthmb img {
+    width: 76px;
+}
+
+.responcontsd .col-lg-6:nth-child(3) .icontxctnpats, .responcontsd .col-lg-6:nth-child(4) .icontxctnpats {
+    margin-bottom: 0;
+}
+
+.lightgrys.rolesresponse {
+    padding: 40px 0;
+}
+
+.lightgrys.rolesresponse .mainheadstop .subhdblack.pnkhd .slyngd {
+    width: 287px;
+}
+
+.lightgrys.rolesresponse .mainheadstop .subhdblack.pnkhd.btcreels .slyngd {
+    width: 203px;
+}
+
+.grdpinbgsa.darktct.workshops {
+    padding: 40px 0 20px 0;
+	background-image: -webkit-linear-gradient( 
+12deg
+ , #070d55, #070d55, #26115a, #46145f, #8b1b6b, #bd2173, #dc2478, #ed267b,#fa267c,#fa267c );
+ margin-bottom: 0;
+}
+
+.grdpinbgsa.darktct .mainheadstop .subhdblack.lowbolds {
+    font-size: 42px;
+    font-family: 'Proxima Nova Rg';
+}
+
+.worksdemosets .mobsldsshow {
+    display: block;
+}
+
+.lightgrys.rolesresponse.batchreal {
+    padding-bottom: 108px;
+}
+
+.playwithtud {
+    width: 100%;
+    height: 628px;
+}
+
+.grdpinbgsa.darktct .subhdblack.tidigin span img {
+    width: 290px;
+    left: 13px;
+}
+
+
+.grdpinbgsa.darktct .subhdblack.evnts span img {
+    width: 115px;
+    left: 6px;
+}
+
+.grdpinbgsa.darktct .subhdblack.mrch span img {
+    width: 115px;
+    bottom: -12px;
+    left: 4px;
+}
+
+
+.grdpinbgsa.darktct .subhdblack.craters span img {
+   width: 144px;
+    bottom: -17px;
+    left: 15px;
+}
+
+.partyare .collrges {
+    padding-top: 50px;
+}
+
+.grdpinbgsa.darktct.workshops .worksdemosets:nth-child(1)  .mobsldsshow {
+    padding-top: 30px;
+}
+
+.grdpinbgsa.darktct.workshops .worksdemosets .mobsldsshow {
+    padding: 34px 0;
+}
+
+.grdpinbgsa.darktct.workshops .subhdblack.lowbolds {
+    margin-bottom: 15px;
+}
+
+.vdobatchs img{
+	width:100%;
+}
+
+
+.singonlys .desktps {
+    width: 100%;
+}
+
+
+.singonlys {
+    padding-top: 30px;
+    padding-bottom: 34px;
+}
+
+.mobsldsshow.firstmobbanners {
+    display: none;
+}
+
+/*signuppage */
+
+.signupbgas {
+    position: relative;
+    width: 100%;
+	height: 100vh;
+	overflow:hidden;
+	background: url(./images/signupdesktopbg.jpg);
+    background-size: 100%;
+    background-position: bottom;
+}
+
+.signupbgas .desktopqual {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -2;
+}
+
+.signupbgas .mobilequal {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -2;
+}
+
+
+.mainheadstop.whitetxts .subhdblack {
+    color: #fff;
+}
+
+.midarksho {
+    margin: auto;
+    width: 100%;
+}
+
+.mainheadstop.whitetxts .subhdblack span {
+    position: relative;
+}
+
+.mainheadstop.whitetxts .subhdblack span .lvlups {
+    position: absolute;
+    bottom: -14px;
+    width: 154px;
+    left: 0;
+}
+
+.signbtnshows ul li {
+    margin: auto 18px;
+    display: inline-block;
+}
+
+.signbtnshows ul {list-style-type: none;padding: 0;margin: 0;}
+
+.signbtnshows ul li .transctas {
+    color: #fff;
+    font-size: 21px;
+    border: none;
+    padding: 5px 2px;
+    border-radius: 33px;
+    width: 134px;
+    display: inline-block;
+	    box-shadow: #ffffff 0px 0px 0px 1.5px;
+	    text-decoration: none;
+		transition: all ease 0.5s;
+}
+
+.signbtnshows ul li .transctas:hover {
+    color: #fff;
+   background-image: -webkit-linear-gradient( 
+347deg
+ ,#fd2d79, #fe3874,#fd3874,#fe496b, #fe496b, #fe4e69, #fe5466, #ff645e, #ff6160, #ff6f58 );
+    box-shadow: #00000000 0px 0px 0px 1.5px;
+}
+
+.signbtnshows {
+    margin: 30px auto;
+    max-width: 700px;
+    border-bottom: 1.5px solid #fff;
+    padding-bottom: 30px;
+	margin-top: 129px;
+	width: 39%;
+}
+
+.followdbasic {
+    margin-top: 30px;
+}
+
+.followdbasic ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.followdbasic ul li {
+    display: inline-block;
+    margin: auto 14px;
+}
+
+.followdbasic ul li a {
+    color: #fff;
+    font-family: 'Proxima Nova Th';
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 19px;
+	    text-decoration: none;
+}
+
+.followdbasic ul li img {
+    width: 20px;
+	filter: brightness(0%) invert(1);
+    margin: auto 10px;
+}
+
+
+/* signup page steps one */
+
+.singnformsbgs {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/sign-up-new.jpg);
+    background-size: 100%;
+    background-position: center;
+    padding: 0px 0 0 0;
+    background-attachment: fixed;
+}
+
+.singnformsbgs .mainheadstop.whitetxts .subhdblack span .lvlups {
+    width: 289px;
+}
+
+.singuptxthds {
+    text-align: left;
+}
+
+.singuptxthds img {
+    width: 100px;
+}
+
+.stpformares {
+    max-width: 416px;
+    margin: auto;
+    margin-top: 0px;
+}
+
+.stpformares .mainheadstop.whitetxts {
+    margin-bottom: 56px;
+}
+
+.singnformsbgs .mainheadstop.whitetxts .subhdblack {
+    font-size: 30px;
+}
+
+.stpformares .form-group .form-control {
+    font-family: 'Proxima Nova Lt';
+    color: #a8a8a8;
+    font-weight: 100;
+    padding: 10px 13px;
+	height: 45px;
+}
+
+.stpformares .form-group .form-control::placeholder {
+    font-family: 'Proxima Nova Lt';
+    color: #a8a8a8;
+    font-weight: inherit;
+}
+
+.stpformares .form-group  span.help-block {
+    text-align: left;
+    display: block;
+    color: #ff3434;
+}
+
+.singuptxthds.rightsplsx {
+    right: 56px;
+}
+
+.datepicker-panel > ul > li.highlighted {
+    background: linear-gradient(
+45deg, #fd2c78, #ff008e);
+color: #fff;
+}
+
+
+.datepicker-panel > ul[data-view="week"] > li, .datepicker-panel > ul[data-view="week"] > li:hover {
+    background-color: #ff008e;
+    cursor: default;
+    color: #fff;
+} 
+
+.datepicker-panel > ul > li {
+    background-color: #ffffff;
+    color: #030202;
+} 
+
+.datepicker-panel > ul > li.muted{
+    color: #a09999;
+}
+
+.datepicker-panel > ul > li.muted:hover {
+    color: #fff;
+}
+
+.datepicker-panel > ul > li.picked, .datepicker-panel > ul > li.picked:hover{
+	    color: #000;
+}
+
+.datepicker-panel > ul > li:hover{
+	    background-color: rgb(0 0 0);
+    color: #fff;
+}
+
+.datepicker-panel > ul > li.highlighted.picked {
+    color: #fff;
+}
+
+.submitctacenter .trasluccta {
+    color: #fff;
+    font-size: 21px;
+    border: none;
+	box-shadow: #ffffff 0px 0px 0px 1.5px;
+    padding: 4px 2px;
+    border-radius: 33px;
+    width: 163px;
+    display: inline-block;
+    text-decoration: none;
+    background: transparent;
+	transition:all ease 0.4s;
+	margin: 0 20px;
+}
+
+.submitctacenter .trasluccta:hover {
+    background-image: -webkit-linear-gradient( 
+355deg
+ ,#fd2d79, #fe3874,#fd3874,#fe496b, #fe496b, #fe4e69, #fe5466, #fe5864, #fe5864, #ff695b );
+    box-shadow: #00000000 0px 0px 0px 1.5px;
+}
+
+.stpformares .form-group {
+    margin-bottom: 26px;
+	    position: relative;
+}
+
+.signfrms.questshows .form-option .form-check .form-control:focus {
+    box-shadow: none;
+}
+
+.stpformares .form-group i.far.fa-eye {
+    position: absolute;
+    top: 14px;
+    right: 9px;
+    color: #a8a8a8;
+	cursor: pointer;
+}
+
+p.alrsdy {
+    margin-top: 10px;
+    color: #fff;
+}
+
+p.alrsdy a {
+    color: #fff;
+    display: inline-block;
+    border-bottom: 2px solid #ff008e;
+}
+
+.submitctacenter .trasluccta.gryshds:hover {
+    background: #a5a0a4b3;
+}
+
+.submitctacenter .trasluccta.gryshds {
+    width: 135px;
+}
+
+.singuptxthds {
+    position: absolute;
+    top: 36px;
+}
+
+
+.signbtnshows.showlogsusrs {
+    margin-top: auto;
+}
+
+.signbtnshows.showlogsusrs h4, .signbtnshows.showlogsusrs p {
+    color: #fff;
+}
+
+.signbtnshows.showlogsusrs h4 {
+    font-size: 37px;
+}
+
+.signbtnshows.showlogsusrs p {
+    font-size: 19px;
+}
+
+.signbtnshows.showlogsusrs {
+    padding-bottom: 0;
+    margin: 0 auto;
+}
+
+
+/* question part tinders */
+
+.innerpagebgas {
+    background: url('./images/stepsinnerbga.jpg');
+    position: relative;
+    width: 100%;
+    height: 98vh;
+    overflow: hidden;
+    background-size: 100%;
+    background-position: bottom;
+}
+
+
+
+
+.signfrms.questshows .stpformares {
+    max-width: initial;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts .subhdblack {
+    font-size: 30px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts .subhdblack span .emoqts {
+    width: 32px;
+    position: relative;
+    top: -3px;
+}
+
+
+
+.signfrms.questshows .form-option {
+    width: 100%;
+}
+
+.signfrms.questshows .form-option .form-check .form-check-input {
+    display: none;
+}
+
+.signfrms.questshows .form-option .form-check {
+    border: 1.5px solid #fff;
+    margin: auto 12px;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    position: relative;
+	transition:all ease 0.5s;
+}
+
+.signfrms.questshows .form-option .form-check .form-check-label {
+    color: #fff;
+    font-size: 17px;
+    position: relative;
+    padding: 7px 0px;
+    font-weight: bold;
+    font-family: 'Proxima Nova Rg';
+	cursor: pointer;
+	width: 154px;
+}
+
+.form-control.othergender.othersc,
+.form-control.othercity.othersc {
+    margin-top: 26px;
+}
+
+.signfrms.questshows .form-option .form-check.active, .signfrms.questshows .form-option .form-check.active:hover{
+    background:#fd267d;
+    border: 1.5px solid #fd267d; 
+}
+
+.submitctacenter.text-center.questtopspces {
+    margin-top: 50px;
+}
+
+.mainheadstop.whitetxts.questfirst1 .subhdblack span .lvlups {
+    width: 154px;
+    bottom: -13px;
+    left: 7px;
+}
+
+.mainheadstop.whitetxts.questsecond .subhdblack  span .lvlups {
+    width: 133px;
+    bottom: -13px;
+}
+
+.signfrms.questshows .form-option .form-check input.form-control {
+    background: transparent;
+    border: none;
+    color: #fff;
+    text-align: center;
+}
+
+.signfrms.questshows .form-option .form-check input.form-control::placeholder {
+    color: #fff;
+}
+
+.signfrms.questshows .form-option .form-check input.form-control:hover {
+    background: transparent;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questthirds .subhdblack span .emoqts {
+    width: 81px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questthirds .subhdblack span  .lvlups {
+    width: 145px;
+    bottom: -14px;
+}
+
+.form-check.form-check-inline.selftypsd {
+    width: 324px;
+}
+
+.signfrms.questshows  .form-check.form-check-inline.selftypsd:hover{
+	  background: transparent;
+	      border: 1.5px solid #fff;
+}
+
+
+.formtextarea textarea.form-control {
+    background: transparent;
+    border: 1.5px solid #fff;
+    border-radius: 53px;
+    height: 80px;
+    padding: 19px 36px;
+	
+}
+
+.signfrms.questshows .formtextarea .form-control:focus {
+    box-shadow: none;
+}
+
+.signfrms.questshows .formtextarea textarea.form-control{
+	color: #fff;
+}
+.formtextarea {
+    max-width: 576px;
+    margin: auto;
+} 
+
+.formtextarea textarea.form-control::placeholder {
+   color: #ffffffa8;
+    font-size: 18px;
+}
+
+
+.signfrms.questshows .mainheadstop.whitetxts.questfourths .subhdblack span .lvlups {
+    width: 119px;
+    bottom: -17px;
+    left: 16px;
+}
+
+.signfrms.questshows 
+ .mainheadstop.whitetxts.questfourths .subhdblack span .emoqts {
+    top: -5px;
+    position: relative;
+    width: 32px;
+}
+
+
+.signfrms.questshows .mainheadstop.whitetxts.questfifths span .lvlups {
+    width: 120px;
+    bottom: -14px;
+    left: 0;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questfifths span .emoqts {
+    width: 49px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questsixths span .lvlups {
+    left: 41px;
+    width: 233px;
+    bottom: -20px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questsixths .subhdblack span .emoqts {
+    width: 31px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questsevenths .subhdblack span .lvlups {
+    width: 237px;
+    bottom: -16px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questsevenths .subhdblack span .emoqts {
+    width: 31px;
+}
+
+
+.signfrms.questshows .mainheadstop.whitetxts.questeights .subhdblack span .lvlups {
+    width: 238px;
+    left: 27px;
+    bottom: -21px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questeights .subhdblack span .emoqts {
+    width: 26px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questninths span .lvlups {width: 114px;left: 44px;bottom: -18px;}
+
+.signfrms.questshows .mainheadstop.whitetxts.questninths span  .emoqts {
+    width: 21px;
+    top: -7px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questtenths .subhdblack span .lvlups {
+    width: 121px;
+        left: 30px;
+    bottom: -15px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questelevntth .subhdblack span .lvlups {
+    width: 91px;
+    bottom: -8px;
+    left: -3px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questelevntth .subhdblack .emoqts {
+    width: 40px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questtwelths .subhdblack span .lvlups {
+    width: 140px;
+    bottom: -15px;
+    left: -5px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts .subhdblack {
+    line-height: 42px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questthirteenth .subhdblack span .lvlups {
+    width: 101px;
+    bottom: -13px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questthirteenth .subhdblack span .emoqts {
+    width: 25px;
+    top: -7px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questfourteenth .subhdblack span .lvlups {
+    width: 149px;
+    bottom: -20px;
+    left: -4px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questfourteenth .subhdblack span .emoqts {
+    width: 29px;
+    top: -11px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questfifteenth .subhdblack span .lvlups {
+    width: 93px;
+    bottom: -12px;
+    left: -8px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questfifteenth .subhdblack span .emoqts {
+    width: 55px;
+    top: -8px;
+}
+
+
+.signfrms.questshows .mainheadstop.whitetxts.questsixteenteenth .subhdblack span .lvlups {
+    width: 171px;
+    bottom: -19px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questsixteenteenth .subhdblack span .emoqts {
+    width: 26px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questseventeenth .subhdblack span .lvlups {
+    width: 113px;
+    bottom: -14px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questseventeenth .subhdblack span .emoqts {
+    width: 31px;
+    top: -8px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questeighteenths .subhdblack .emoqts {
+    width: 24px;
+    position: relative;
+    top: -3px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questeighteenths .subhdblack .lvlups {
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    bottom: -9px;
+    left: -35px;
+    right: 0;
+    width: 236px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questeighteenths .subhdblack {
+    position: relative;
+}
+
+.homeinnrs {
+    background: #f8f8f8;
+    height: 100vh;
+}
+
+.homeinnrs .signfrms.questshows .mainheadstop.whitetxts .subhdblack {
+    color: #000;
+}
+
+.trasluccta.gryshds.pureprads, .trasluccta.gryshds.pureprads:hover {
+    background-image: -webkit-linear-gradient( 
+62deg
+ , #070d55, #421460, #4b1561, #581663, #46145f, #46145f, #761a68, #ba2173,#d42377,#fa267c );
+}
+
+
+.form-group.sltarrowssh:after {
+    content: "";
+    position: absolute;
+    right: 14px;
+    width: 11px;
+    height: 11px;
+    background: transparent;
+    top: 13px;
+    z-index: 9;
+    border-top: 2px solid #bfbfbf;
+    border-left: 2px solid #bfbfbf;
+    transform: rotate(
+-136deg);
+}
+
+.stpformares .form-group select.form-control {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+/* css for arrows */
+
+.mntaresflvibe.owl-theme .owl-nav [class*=owl-] {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+}
+
+.mntaresflvibe.owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent;
+    outline: none;
+    text-align: center;
+}
+
+.mntaresflvibe.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    font-size: 0;
+}
+
+
+.mntaresflvibe.owl-carousel .owl-nav button span {
+	    width: 11px;
+    height: 11px;
+    top: 13px;
+    z-index: 9;
+    border-top: 3px solid #ffffff;
+    border-left: 3px solid #ffffff;
+    transform: rotate( 
+134deg);
+    padding: 15px;
+    display: inline-block;
+}
+
+.mntaresflvibe.owl-carousel .owl-nav button.owl-prev span {
+    transform: rotate( 
+-45deg);
+}
+
+.mntaresflvibe.owl-carousel .owl-nav button.owl-next span {
+    transform: rotate( 
+134deg);
+}
+
+.mntaresflvibe.owl-carousel .owl-nav button {
+    outline: none;
+}
+
+.mntaresflvibe.owl-theme .owl-nav {
+    position: relative;
+    top: -353px;
+}
+
+
+.mntaresflvibe.owl-theme .owl-nav .owl-next {
+    float: right;
+    position: relative;
+    right: -52px;
+}
+
+.mntaresflvibe.owl-theme .owl-nav .owl-prev {
+    float: left;
+    position: relative;
+    left: -51px;
+}
+
+
+
+div#othergenderautocomplete-list, div#city_othersautocomplete-list {
+    background: #fff;
+    text-align: left;
+    padding: 0px 0px;
+    color: #a8a8a8;
+	height: auto;
+    max-height: 100px;
+    overflow: auto;
+}
+
+div#othergenderautocomplete-list div, div#city_othersautocomplete-list div {
+    padding: 1px 13px;
+}
+
+div#othergenderautocomplete-list div:hover, div#city_othersautocomplete-list div:hover{
+    background: #f7f7f7;
+}
+
+/* Track */
+.autocomplete-items::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.autocomplete-items::-webkit-scrollbar-thumb {
+   background: #fb2a7e;  
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.autocomplete-items::-webkit-scrollbar-thumb:hover {
+   background: #ff7357; 
+}
+
+/* width */
+.autocomplete-items::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.autocomplete-items::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+
+.mentorsslidars img.desktps, .bdrwls .desktps{
+    border: 4px solid #fff;
+}
+
+.singonlys .mobilesbs {
+    display: none;
+}
+
+
+section.pinkstripsd {
+    background: #ff008e;
+    padding: 7px 0;
+}
+
+.pinkstripsd .submds {
+    margin: 0;
+    color: #fff;
+    font-family: 'Proxima Nova Th';
+    font-size: 21px;
+}
+
+.mainheadstop .simis {
+    font-size: 25px;
+    font-family: 'Proxima Nova Lt';
+}
+
+.mainheadstop.ptdsmd .emojs {
+    position: relative;
+    width: 26px;
+    top: -2px;
+    margin: 0 4px;
+}
+
+
+.singuptxthds.midplsx {
+    position: relative;
+    margin: auto;
+    top: -51px;
+}
+
+.singuptxthds.midplsx img {
+    width: 135px;
+}
+
+.singuptxthds.rightsplsx img {
+    width: 138px;
+}
+
+.mentorsslidars img{    transition: all ease 0.5s;}
+.mentorsslidars img:hover {
+  
+} 
+
+.mentorsslidars .bdrplya {
+    position: relative;
+    transition: all ease 0.5s;
+}
+
+.mentorsslidars .bdrplya:after {transition: all cubic-bezier(0.55, 0.09, 0.68, 0.53) 0.5s;content: "";position: absolute;left: 13px;bottom: 0;width: 100px;height: 100px;border-left: 2px solid #fff0;border-bottom: 2px solid #fff0;}
+
+.mentorsslidars .bdrplya:before {
+        content: "";
+        position: absolute;
+        right: 14px;
+        top: 0;
+        width: 100px;
+        height: 100px;
+        border-right: 2px solid #fff0;
+        border-top: 2px solid #fff0;
+        transition: all ease 0.5s;
+}
+
+
+
+.mentorsslidars .bdrplya:hover:after {
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.mentorsslidars .bdrplya:hover:before{
+    border-right: 2px solid #fff;
+        border-top: 2px solid #fff;
+}
+
+.tuimodsb {
+   background: #f8f8f8;
+}
+
+.tuimodsb .modal-body {
+    text-align: center;
+}
+
+.tuimodsb .modal-body img {
+    margin: 40px 0;
+}
+
+.tuimodsb .applycta.transpabuts {
+    background: transparent;
+    width: auto;
+    padding: 2px 27px;
+    margin: 17px 15px;
+    border: none;
+    box-shadow: #2c2c2c 0px 0px 0px 1.5px;
+    color: #000;
+    transition: all ease 0.1s;
+}
+
+.tuimodsb h4 {
+    color: #2c2c2c;
+    font-size: 18px;
+}
+
+.tuimodsb .applycta.transpabuts:hover {
+    color: #fff;
+     box-shadow: #ffffff00 0px 0px 0px 1.5px;
+    background-image: -webkit-linear-gradient( 
+0deg , #070d55bd, #070d55c9, #26115ac9, #46145fba, #46145fba, #46145fba, #dc2478ad, #ed267bc2,#fa267cc4,#fa267cbf );
+}
+
+.tuimodsb button.close {
+    color: #2c2c2c;
+    opacity: 1;
+} 
+
+
+/* new dashbpard pages profile */
+
+
+.userinfowel {
+    position: relative;
+    height: 240px;
+}
+
+.userinfowel.leadonlyinfos {
+    height: 225px;
+}
+
+.profdtls {
+    max-width: 871px;
+    margin: 0 auto;
+    padding-top: 28px;
+    position: relative;
+}
+
+.profilepcs {
+    text-align: right;
+}
+
+.profilepcs img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.userinfowel .singuptxthds.rightsplsx {
+      position: absolute;
+    text-align: right;
+    top: -8px;
+    padding: 20px 0;
+    right: -179px;
+}
+
+.userinfowel:after {content: "";position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: -2;border-bottom-left-radius: 35px;border-bottom-right-radius: 35px;background-image: -webkit-linear-gradient( 41deg , #fd267d, #fd267d, #fd267d, #fd267d, #fd2d79, #fe476d, #fe5665, #fe5e61,#ff7854,#ff7854 );}
+
+
+
+.usdt p {
+    font-family: 'Proxima Nova Rg';
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+}
+
+.uprcse h4 {
+    text-transform: uppercase;
+}
+
+.usdt h4 {
+    color: #fff;
+    font-family: 'Proxima Nova Th';
+    font-size: 32px;
+    margin: 6px 0 6px 0;
+    line-height: 29px;
+    letter-spacing: 0.3px;
+}
+
+p.pontersns  span {
+    font-size: 22px;
+    font-family: 'Proxima Nova Lt';
+}
+
+.usdt .pontersns {
+    font-size: 18px;
+}
+
+
+.badgarespls {
+    max-width: 708px;
+    margin: 0 auto;
+    background: #fff;
+    position: absolute;
+    border-radius: 11px;
+    padding: 12px;
+    display: flex;
+    box-shadow: #00000014 1px 2px 7px 2px;
+    width: 100%;
+    bottom: -28px;
+    left: 0;
+    right: 0;
+}
+
+.badgeiconssh ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.badgeiconssh ul li img {
+    width: 43px;
+}
+
+.badgarespls p {
+    float: left;
+    margin: auto 6px;
+    width: 61%;
+    font-family: 'Proxima Nova Rg';
+	    font-size: 17px;
+}
+
+.badgeiconssh ul li {
+    display: inline-block;
+    margin: 0 9px;
+}
+
+.badgeiconssh {
+    display: flex;
+    flex-direction: row;
+}
+
+.badgeiconssh a {
+    margin: auto 10px;
+    color: #ddd;
+}
+
+.indsh {
+    text-align: center;
+}
+
+.indsh p {
+    margin: auto;
+    font-family: 'Proxima Nova Th';
+    font-size: 18px;
+}
+
+.indsh img {
+    margin: auto;
+    width: 67px;
+}
+
+.indsh.cclb img{
+	 width: 90px;
+}
+
+.indsh.tdbg img{
+	width:57px;
+}
+
+.dashgridpan {
+    padding-top: 90px;
+}
+
+.indsh a {
+     padding: 0% 0%;
+    text-decoration: none;
+    color: #000;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    min-height: 189px;
+    background: #f8f8f8;
+   /* box-shadow: #0000000d 0px 0px 3px 2px;*/
+    margin: auto;
+    max-width: 100%;
+}
+
+.indsh a.active {background: #fd267d;color: #fff;}
+
+
+.indsh a.active img {
+    filter: brightness(0%) invert(1);
+}
+
+.indsh a:hover {
+    background: #fd267d;
+    color: #fff;
+}
+
+.indsh a:hover img {
+    filter: brightness(0%) invert(1);
+}
+
+
+.indsh a p {
+    margin-top: 20px;
+}
+
+.blackpart ul li.nav-item.gropsc a img{
+    width: 33px;
+}
+
+.userinfowel.onlyinfosur {
+    height: 171px;
+}
+
+.infotasks {
+    padding: 50px 0;
+    margin: auto;
+    max-width: 500px;
+}
+
+.lnkstsks ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: auto 14px;
+}
+
+.lnkstsks ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.lnkstsks ul li a {
+    color: #000;
+    border-bottom: 1.4px solid #fd267d00;
+    padding-bottom: 3px;
+    font-family: 'Proxima Nova Rg';
+    font-size: 18px;
+	text-decoration:none;
+}
+
+.lnkstsks ul li a.active {
+    border-bottom: 1.4px solid #fd267d;
+    font-family: 'Proxima Nova Alt Rg';
+}
+
+.taskpanels {
+    background: #f8f8f8;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: #00000012 1px 2px 6px 1px;
+	    margin-bottom: 30px;
+}
+
+.lnkstsks {
+    margin-bottom: 62px;
+}
+
+.bonusbdge p {
+    margin: 0;
+    color: #fff;
+}
+
+.bonusbdge {
+    display: inline-block;
+    background-image: -webkit-linear-gradient( 
+62deg , #e5a038, #e5a038, #e5a038, #e3ab46, #e7bb57, #e8bd5a, #e6a741, #e5a038,#e5a038,#e5a038 );
+    padding: 8px 16px;
+    border-radius: 24px;
+    position: absolute;
+    top: -18px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 166px;
+    text-align: center;
+	font-family: 'Proxima Nova Alt Rg';
+}
+
+.dtltskarea {
+    display: flex;
+    flex-direction: row;
+}
+
+.taskupldas a {
+    display: inline-block;
+    margin: auto;
+    color: #000;
+	font-family: 'Proxima Nova Th';
+}
+
+.taskupldas {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.infnotif .tskttls {
+    font-family: 'Proxima Nova Alt Rg';
+    font-size: 20px;
+    margin: 0;
+}
+
+.infnotif .ddln {
+    color: #e5a038;
+    font-family: 'Proxima Nova Rg';
+    margin: 0;
+}
+
+.infnotif  .ddln.mss {
+    color: #fd267d;
+}
+
+.taskars {
+    margin-bottom: 61px;
+}
+
+.badgrels img {
+    width: 41px;
+}
+
+.infnotif .ddlnrednor {
+    color: #fd5068;
+    font-family: 'Proxima Nova Rg';
+    margin: 0;
+}
+
+.badgrels.pointcol p {
+    margin: 0;
+    color: #fff;
+}
+
+.badgrels.pointcol {
+    background: #fd5068;
+    position: absolute;
+    right: 6px;
+    top: 10px;
+    padding: 2px 8px;
+    border-radius: 4px;
+	font-family: 'Proxima Nova Alt Rg';
+}
+
+.badgrels.bpointcol {
+    background: #fd5068;
+    background-image: -webkit-linear-gradient( 
+        62deg , #e5a038, #e5a038, #e5a038, #e3ab46, #e7bb57, #e8bd5a, #e6a741, #e5a038,#e5a038,#e5a038 );
+    position: absolute;
+    right: 6px;
+    top: 10px;
+    padding: 2px 8px;
+    border-radius: 4px;
+	font-family: 'Proxima Nova Alt Rg';
+}
+
+.badgrels.bpointcol p {
+    margin: 0;
+    color: #fff;
+}
+
+.badgrels.pointcolm {
+    position: absolute;
+    right: 6px;
+    top: 31px;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.infnotif .cominfonotf {
+    font-family: 'Proxima Nova Rg';
+}
+
+.infnotif {
+    position: relative;
+    width: 100%;
+}
+
+.poontsearns p {
+    margin: 0;
+    font-size: 25px;
+    color: #fd267d;
+	font-family: 'Proxima Nova Alt Rg';
+}
+
+.poontsearns {
+    position: absolute;
+    right: 0;
+    top: 19px;
+}
+
+.tskdates {
+    color: #898989;
+    font-family: 'Proxima Nova Rg';
+    margin: 0 0 0;
+}
+
+.statustskd span {
+    font-family: 'Proxima Nova Rg';
+    color: #898989;
+}
+
+.statustskd .inrevs {
+    color: #2faeff;
+    font-family: 'Proxima Nova th';
+}
+
+.statustskd  .inrevs.rjcno {
+    color: #fd5068;
+}
+
+.statustskd .inrevs img {
+    width: 18px;
+    position: relative;
+    top: -4px;
+}
+
+.resubcta {
+    border: 1.5px solid #fd267d;
+    color: #000;
+    padding: 4px 19px;
+    border-radius: 33px;
+    display: inline-block;
+    font-family: 'Proxima Nova Rg';
+    font-size: 15px;
+}
+
+.resubcta:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.infprogtsk {
+    display: flex;
+    flex-direction: row;
+    margin: 9px 0 0 0;
+}
+
+.statustskd {
+    width: 50%;
+    margin: 0;
+	cursor:pointer;
+}
+
+.infnotif .tskttls.comtasknot {
+    font-size: 16px;
+    width: 70%;
+}
+
+.statustskd .inrevs.okgo {
+    color: #15e4b5;
+}
+
+.resltears span {
+    color: #898989;
+    font-family: 'Proxima Nova Rg';
+}
+
+.resltears .earnbds {
+    width: 31px;
+    margin:  0 auto;
+    position: relative;
+    top: -6px;
+    left: 8px;
+}
+
+.resltears {
+    display: flex;
+}
+
+.lnkstsks.recrevds ul li {
+    margin: auto 15%;
+}
+
+.taskupldas.goldcs a {
+    color: #e5a038;
+    font-family: 'Proxima Nova Lt';
+}
+
+.infprogtsk.usesbs {
+    display: inline-block;
+    width: 45%;
+}
+
+.infprogtsk.usesbs.missddls {
+    width: auto;
+	float:right;
+}
+
+.infprogtsk.usesbs p.statustskd {
+    width: auto;
+}
+
+.userstacksin ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.userstacksin ul li {
+    display: inline-block;
+}
+
+.userstacksin ul li:nth-child(1) img, .userstacksin ul li:nth-child(2) img {
+    width: 35px;
+}
+
+.userstacksin ul li:nth-child(3) img, .userstacksin ul li:nth-child(4) img {
+    width: 39px;
+}
+
+.userstacksin ul li img {
+    position: relative;
+	box-shadow: #000 0px 0px 2px 0px;
+}
+
+
+
+/*
+.userstacksin ul li:nth-child(2) img {
+    left: -10px;
+}
+
+.userstacksin ul li:nth-child(3) img {
+    left: -20px;
+}
+
+.userstacksin ul li:nth-child(4) img {
+    left: -30px;
+}*/
+
+.userstacksin {
+    display: flex;
+    flex-direction: row;
+}
+
+.userstacksin a {
+    margin: auto 0;
+    left: -23px;
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+
+.resultachd {
+    display: flex;
+    flex-direction: row;
+}
+
+.resultachd .inrevs.rejrd {
+    color: #fd267d;
+}
+
+
+
+/* leadboard page */
+
+.corwninf {
+    position: relative;
+}
+
+.resultdtas .table th:nth-child(2) {
+    text-align: left;
+    padding-left: 53px;
+}
+
+.corwninf .plccrns {
+    position: absolute;
+    right: 73px;
+    top: -32px;
+    width: 57px;
+    height: auto;
+}
+
+.resultdtas {
+    max-width: 503px;
+    margin: auto;
+}
+
+section.leadboardars {
+    margin-bottom: 100px;
+    padding-bottom: 5em;
+}
+
+.searchlisd {
+    max-width: 500px;
+    margin: auto;
+	margin-top:30px;
+	    margin-bottom: 29px;
+}
+
+.searchlisd .form-control {
+    max-width: 219px;
+    margin: auto;
+    border-radius: 11px;
+    color: #a4a4a4;
+    font-family: 'Proxima Nova Rg';
+}
+
+.searchlisd .form-control:focus {
+    border: 1px solid #fd267d;
+    box-shadow: none;
+}
+
+.profdata {
+    display: flex;
+    flex-direction: row;
+}
+
+.resultdtas .table td {
+    text-align: center;
+}
+
+.resultdtas .table td img {
+    width: 21px;
+}
+
+.resultdtas .table td .thmdpr img {
+    width: 32px;
+	height: 32px;
+    border-radius: 100%;
+}
+
+.thmdpr {
+    margin-right: 10px;
+}
+
+.prodls p {
+    margin: 0;
+    font-family: 'Proxima Nova Rg';
+    line-height: 17px;
+    font-size: 16px;
+}
+
+.resultdtas .table td .prodls p{
+	    text-align: left;
+		text-transform: capitalize;
+}
+.prodls .placedsd {
+    color: #a4a4a4;
+    font-size: 13px;
+	    text-align: left;
+}
+
+.resultdtas .table td{
+    border: none;
+}
+
+.resultdtas .table th {
+    background: #fe277e;
+    color: #fff;
+    text-align: center;
+	    border: none;
+    border-bottom: 11px solid #fff;
+	    text-transform: uppercase;
+}
+
+.resultdtas .table thead th:nth-child(1) {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.resultdtas .table thead th:nth-child(4) {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.resultdtas .table td {
+    text-align: center;
+    background: #f8f8f8;
+    border-top: none;
+    border-bottom: 10px solid #fff;
+}
+
+.resultdtas .table td:nth-child(3),
+.resultdtas .table td:nth-child(4){
+	vertical-align:middle;
+}
+
+/*profile edit */
+
+.profthmbs .usrths {
+    width: 78%;
+}
+
+.profthmbs {
+    text-align: center;
+    position: relative;
+}
+
+.pictxholder {
+    position: relative;
+    max-width: 330px;
+    margin: auto;
+    height: 335px;
+}
+
+.pictxholder .profthmbs .usrths {
+    width: 100%;
+}
+
+.profilemysho {
+    padding: 60px 0;
+}
+
+.edipro .edipen {
+        position: absolute;
+       bottom: 52px;
+    right: -23px;
+}
+
+.edipro .edipen .iceds {
+    width: 46px;
+}
+
+.profthmbs img {
+    border-radius: 28px;
+}
+
+.profacssd h3 {
+    font-family: 'Proxima Nova Th';
+	font-size: 30px;
+}
+
+ul.lts {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.lts li img {
+    width: 12px;
+    margin-right: 7px;
+}
+
+ul.lts li {
+    color: #949494;
+    font-family: 'Proxima Nova Rg';
+    font-size: 15px;
+}
+
+.profacssd p {
+    color: #949494;
+    font-family: 'Proxima Nova Rg';
+    font-size: 15px;
+	margin: 22px 0;
+}
+
+.profacssd {}
+
+ul.drk {
+    padding: 0;
+    list-style-type: none;
+	margin: 30px 0;
+}
+
+ul.drk li img {
+    width: 10px;
+    margin-right: 10px;
+}
+
+ul.drk li:nth-child(3) img {
+    width: 11px;
+}
+
+ul.drk li a {
+    color: #000;
+	font-size: 13px;
+	font-family: 'Proxima Nova Rg';
+}
+
+ul.loglns {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.loglns li {
+    display: inline-block;
+    width: 32%;
+	
+}
+
+ul.loglns li:nth-child(2) {
+    text-align: center;
+}
+
+ul.loglns li:nth-child(3) {
+    text-align: right;
+}
+
+ul.loglns li img {
+    width: 16px;
+    margin-right: 10px;
+}
+
+ul.loglns li a {
+    color: #000;
+        font-family: 'Proxima Nova Lt';
+    font-size: 15px;
+	    text-decoration: none;
+}
+
+ul.loglns li a:hover{
+	color: #fd4e85;
+}
+
+.profileeditfs {
+    height: auto;
+    padding: 0px 0;
+}
+
+.profilepcs {
+   /* padding-top: 44px;*/
+}
+
+.profileeditfs .profdtls {
+    padding-top: 0px;
+}
+
+.profilepcs  .uploadths {
+    max-width: 200px;
+    margin: auto;
+    position: relative;
+}
+
+.profilepcs  .uploadths img {
+    width: 131px;
+    height: 130px;
+}
+
+.profilepcs .uploadths .cmics {
+    position: absolute;
+    width: 41px;
+    height: auto;
+    position: absolute;
+    right: 37px;
+    bottom: -6px;
+}
+
+.profileeditfs::after {
+    height: 212px;
+}
+
+
+.editfil {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 71px;
+}
+
+.uploaics {
+    border: none;
+    padding: 66px;
+    width: 41px;
+    height: auto;
+    position: absolute;
+    right: 33px;
+    bottom: -6px;
+    opacity: 0;
+	cursor: pointer;
+}
+
+.profileeditfs .form-group label {
+    font-family: 'Proxima Nova Rg';
+    color: #8d8d8d;
+    font-size: 14px;
+	margin-bottom:0;
+}
+
+.profileeditfs .form-group 
+.form-control {
+    border: none;
+    border-bottom: 1px solid #8d8d8d63;
+    border-radius: 0px;
+    padding: 1px 0;
+    font-family: 'Proxima Nova Rg';
+    color:#000;
+    box-shadow: none;
+}
+
+.profileeditfs .themesub {
+    color: #000;
+	width: auto;
+	padding: 7px 22px;
+	font-family: 'Proxima Nova Lt';
+}
+
+.profileeditfs .themesub:hover {
+    background: #fd267d;
+    color: #fff;
+}
+
+.profileeditfs .form-group .form-control::placeholder {
+       color: #000;
+}
+
+
+.profileeditfs .form-group.extur .form-control {
+    font-size: 12px;
+    color: #8d8d8d;
+    margin: 10px 0;
+}
+
+.profileeditfs .form-group.extur .form-control::placeholder{
+      color: #8d8d8d;
+}
+
+.themesub {
+    padding: 7px 14px;
+    font-size: 18px;
+    align-items: center;
+    border-radius: 27px;
+    background: transparent;
+    color: #fd267d;
+	 width: 153px;
+    border: 2px solid #fd267d;
+    margin: 0 8px;
+    margin-bottom: 40px;
+    
+}
+
+
+.usrprdisdt{
+    margin: auto;
+    max-width: 238px;
+    padding: 15px;
+    text-align: center;
+    background: #f8f8f8;
+    border-radius: 13px;
+	    position: relative;
+}
+
+.usrprdisdt .thmbur {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 2px solid #fe436e;
+}
+
+.goldmem.usrprdisdt h3 {
+    color: #fff;
+}
+
+.usrprdisdt .posuse {
+    margin: 0;
+    color: #929292;
+	    font-family: 'Proxima Nova Rg';
+}
+
+.mtns .usrprdisdt a img {
+    width: 16px;
+	    margin: 0 3px;
+}
+
+.goldmem.usrprdisdt {
+    background-image: -webkit-linear-gradient( 
+62deg , #e5a038, #e5a038, #e5a038, #e3ab46, #e7bb57, #e8bd5a, #e6a741, #e5a038,#e5a038,#e5a038 );
+	border: 2px solid #efefef00;
+}
+
+.usrprdisdt h3 {
+    color: #000;
+    font-family: 'Proxima Nova Lt';
+    font-size: 25px;
+    margin: 8px 0 0 0;
+}
+
+.profileusrdta {
+    padding: 50px 0;
+}
+
+.goldmem.usrprdisdt a {
+    color: #fff;
+    font-family: 'Proxima Nova Rg';
+    margin: 9px 0 0 0;
+    display: inline-block;
+}
+
+.goldmem.usrprdisdt a img {
+    filter: brightness(0%) invert(1);
+}
+
+.goldmem.usrprdisdt .thmbur {
+    border: 2px solid #fff;
+}
+
+.goldmem.usrprdisdt .posuse {
+    color: #fff;
+}
+
+.usrprdisdt a {
+    color: #000;
+}
+
+.usrprdisdt a.icmd span {
+    margin: 2px auto 0 auto;
+    display: inline-block;
+}
+
+.usrprdisdt a.icmd {
+    display: inline-flex;
+}
+
+.othersdts {
+    max-width: 805px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.othersdts .usrprdisdt {
+    margin-bottom: 40px;
+}
+
+.goldmem.usrprdisdt .inf img {
+    filter: none;
+	
+}
+
+.usrprdisdt .inf img {
+	    width: 20px;
+}
+
+
+.usrprdisdt .inf {
+    position: absolute;
+    right: 6px;
+    top: 5px;
+}
+
+/* upload css */
+
+.file-drop-area {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    width: 450px;
+    max-width: 100%;
+    padding: 25px;
+       border: 1.4px dashed #a4a4a4;
+    border-radius: 3px;
+    transition: 0.2s;
+   
+}
+
+.choose-file-button {
+   flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    padding: 8px 0px;
+    margin-right: 0px;
+    font-size: 12px;
+        color: #a4a4a4;
+		font-family: 'Proxima Nova lt';
+}
+
+.file-message {
+   font-size: small;
+    line-height: 1.4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    font-family: 'Proxima Nova lt';
+	    text-decoration: underline;
+}
+
+.file-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0
+}
+
+p.droptxtupl {
+    margin-top: 40px;
+    text-align: left;
+    color: #fd267d;
+    margin-bottom: 3px;
+}
+
+.bgups img {
+    width: 20px;
+}
+
+.reviewdatapl .thmbur {
+    width: 35px;
+    border-radius: 100%;
+    text-align: left;
+    display: inherit;
+}
+
+.reviewdatapl h3 {
+    text-align: left;
+    font-size: 17px;
+    margin: 7px 0 0 0;
+}
+
+.reviewdatapl .statustskd {
+    width: auto;
+    font-size: 12px;
+    text-align: left;
+}
+
+.galdts {padding: 6px 13px;}
+
+.disthm img {
+    width: 99%;
+}
+
+.galdts .disthm {
+    width: 46px;
+    margin-right: 10px;
+}
+
+.commnsect {
+    text-align: left;
+}
+
+.commnsect label {
+    margin: 0;
+    font-family: 'Proxima Nova Rg';
+    color: #898989;
+    font-size: 12px;
+}
+
+.commnsect input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    font-size: 12px;
+    width: 100%;
+	padding: 0;
+}
+
+.responsctas {
+    margin-top: 20px;
+	display: flex;
+}
+
+.responsctas button {
+    background: transparent;
+    border: 1.4px solid;
+    border-radius: 20px;
+    padding: 0 17px;
+    margin: 0 5px;
+    font-family: 'Proxima Nova Rg';
+}
+
+.responsctas .canclrej {
+    border: 1.4px solid #fd267d;
+    color: #fd267d;
+    font-family: 'Proxima Nova Rg';
+}
+
+.responsctas .gogreensap {
+    color: #15e4b5;
+    border: 1.4px solid #15e4b5;
+}
+
+.flo {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.commnsect input[type="text"]:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.searchlisd .form-control option {
+    text-align: left;
+	font-size:20px;
+	    font-family: 'Proxima Nova Rg';
+}
+
+.searchlisd .form-control option:nth-child(1) {
+    text-align: center;
+}
+
+.searchlisd .form-control.selectcity {
+    appearance: none;
+}
+
+.tasksubmods {
+    max-width: 285px;
+	    margin: auto;
+}
+
+.tasksubmods .modal-header {
+    border: none;
+    padding: 0 13px;
+	background: #f8f8f8;
+}
+
+.tasksubmods .modal-body {
+    text-align: center;
+    background: #f8f8f8;
+}
+
+.tasksubmods .modal-body img {
+    width: 67px;
+    margin-bottom: 20px;
+}
+
+.tasksubmods .modal-body p {
+    font-family: 'Proxima Nova Rg';
+	    margin: 0;
+    color: #000;
+}
+
+.badgeheds {
+    height: 180px;
+}
+
+.badgeheds .profdtls {
+    padding-top: 0;
+}
+
+.badgeheds 
+ .singuptxthds.rightsplsx {
+    right: 35px;
+    padding: 0 0;
+    top: 15px;
+}
+
+.taskpanels.badgeinfos .badgrels {
+    width: 125px;
+    margin-right: 29px;
+}
+
+.taskpanels.badgeinfos .badgrels img {
+    width: 100%;
+}
+
+.taskpanels.badgeinfos .infnotif .cominfonotf {
+    margin: 0;
+	    font-size: 15px;
+}
+
+.taskpanels.badgeinfos {
+    padding: 20px 30px;
+	    box-shadow: none;
+}
+
+
+
+.profileeditfs 
+ .editfil.campcol .form-group label {
+    color: #000;
+    font-size: 17px;
+}
+
+.profileeditfs .editfil.campcol .form-group label span.er {
+    color: #fd267d;
+}
+
+.themesub.drk {
+    background: #fd267d;
+    color: #ffffff;
+}
+
+/* width */
+.flo::-webkit-scrollbar {
+  width: 5px;
+  height:3.5px;
+}
+
+/* Track */
+.flo::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px #80808099; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.flo::-webkit-scrollbar-thumb {
+  background: black; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.flo::-webkit-scrollbar-thumb:hover {
+  background: #fd267d; 
+}
+
+.resubcta:hover {
+    background: #fd267d;
+    color: #fff;
+}
+
+/* badges popup */
+
+.badgesmodalsm {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.badgesmodalsm img {
+    width: 58px;
+}
+
+.badgesmodalsm p {
+   max-width: 109px;
+    margin: 15px auto;
+    line-height: 17px;
+	    font-family: 'Proxima Nova Alt Rg';
+	font-size: 16px;
+}
+
+.badgesmodalsm  .modal-header {
+    border: none;
+}
+
+.myteamheads {
+    height: 57px;
+    display: flex;
+    flex-direction: column;
+}
+
+.myteamheads .singuptxthds.rightsplsx {
+    position: relative;
+    right: 0;
+    text-align: CENTER;
+    padding: 0 0;
+    top: 0;
+    margin: auto;
+}
+
+.myteamheads .container {
+    margin: auto;
+}
+
+.lnkstsks.recrevds {
+    margin-bottom: 30px;
+}
+
+.lnkstsks.compltsk {
+    margin-bottom: 32px;
+}
+
+/* dashboard reviwed table */
+
+.pointsifld {
+    margin: 11px 0;
+    text-align: center;
+}
+
+.commnsect .pointsifld .form-control {
+    border: 1px solid #ddd;
+    padding: 0 8px;
+    margin: 30px auto;
+    max-width: 200px;
+    color: #cbcbcb;
+    font-size: 15px;
+    font-weight: normal;
+	font-family: 'Proxima Nova Lt';
+}
+
+.commnsect .pointsifld .form-control::placeholder {
+    color: #cbcbcb;
+}
+
+.reviewdatapl {
+    padding: 50px 0;
+}
+
+.reviewdatapl .commnsect input[type="text"]{
+	    font-family: 'Proxima Nova Lt';
+}
+
+.activityinfos .table thead th, .activityinfos .table td {
+    border: none;
+	padding: 7px 0
+}
+
+.activityinfos .dwltype {
+    color: #fd267d;
+    text-decoration: none;
+	font-family: 'Proxima Nova Lt';
+}
+
+.activityinfos .dwltype:hover {
+    color: #000;
+}
+
+.reviewdatapl .responsctas {
+    text-align: center;
+    max-width: 270px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.responsctas button {
+    margin: auto 8px;
+}
+
+.reviewdatapl .responsctas button {
+    padding: 5px 27px;
+    width: 248px;
+}
+
+.taskupldas.goldcs .themesub {
+    color: #e5a038;
+    border: 1.5px solid #e5a038;
+	width: auto;	
+	padding: 4px 21px;
+    margin-bottom: 0;
+	text-decoration:none;
+
+}
+
+.taskupldas.goldcs .themesub:hover {
+    background: #e5a038;
+    color: #fff;
+}
+
+
+/* css for new design reviewstask */
+
+.reviewtabels .thmdpr img {
+    width: 39px;
+}
+
+.reviewtabels .prodls {
+    margin: auto 2px;
+}
+
+.reviewtabels .statustskd {
+    width: 100%;
+    margin: 8px 0;
+}
+
+.reviewtabels .modal-content {
+    background: #f8f8f8;
+}
+
+.reviewtabels thead th {
+    border: none;
+}
+
+.reviewtabels .modal-header {
+    border: none;
+}
+
+.ptac {
+    display: flex;
+}
+
+.ptac p {
+    margin: 8px 0;
+}
+
+
+.reviewdtanaly {
+    overflow: auto;
+    max-height: 500px;
+}
+
+/* width */
+.reviewdtanaly::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.reviewdtanaly::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.reviewdtanaly::-webkit-scrollbar-thumb {
+  background: #c5c2c2; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.reviewdtanaly::-webkit-scrollbar-thumb:hover {
+  background: #fd6076; 
+}
+
+.taskars.revonly{
+    overflow: scroll;
+    max-height: 433px;
+}
+
+.taskars.revonly::-webkit-scrollbar {
+    display: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+}
+
+.ant-upload.ant-upload-drag {
+    height: 80px !important;
+}
+
+.themesubk {
+    padding: 7px 8px;
+    font-size: 14px;
+    align-items: center;
+    border-radius: 27px;
+    background: transparent;
+    color: #fd267d;
+    width: 182px;
+    border: 2px solid #fd267d;
+    margin: 0 0px;
+    margin-bottom: 35px;
+}
+
+button.themesub.kbks:hover {
+    background: #fd267d;
+    color: #fff;
+}
+
+.modal-header .close {
+    padding: 0rem 0.3rem;
+}
+
+table.table.table-responsive {
+    display: inline-table;
+}
+
+button.ant-btn.ant-btn-primary {
+    background: #fd267d;
+    border-color: #fd267d;
+}
+
+button.ant-btn:hover {
+    color: #fd267d;
+    border-color: #fd267d;
+}
+
+button.ant-btn.ant-btn-primary:hover {
+    color: #fff;
+}
+
+.profilemysho .container {
+    margin: auto;
+	
+}
+
+.profilemysho {
+    height: 83vh;
+	padding:0 0;
+}
+
+.dashgridpan {
+    height: 46vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashgridpan .container {
+    margin: auto;
+}
+
+/* css for new design reviewstask  ends here*/
+
+/* responsive media */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) { 
+
+.dashgridpan {
+    padding-top: 70px;
+	    padding-bottom: 70px;
+	    height: auto;
+}
+
+.userinfowel{
+	    height: 230px;
+}
+
+.badgeheds {
+    height: 200px;
+}
+
+.userinfowel.leadonlyinfos {
+    padding: 0 12px;
+	height: 239px;
+}
+
+.userinfowel.leadonlyinfos .singuptxthds.rightsplsx {
+    padding: 0 0 6px 0;
+}
+
+.pictxholder{
+	height: 386px;
+}
+.infprogtsk.usesbs {
+    margin-bottom: 12px;
+}
+
+.userstacksin ul li img {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.taskars.revonly{
+	 max-height: initial;
+}
+.indsh.tdbg img {
+    width: 39px;
+}
+
+.indsh.cclb img {
+    width: 71px;
+}
+
+.indsh a p br {
+    display: none;
+}
+
+.indsh a p {
+    margin: auto;
+}
+
+section.taskars.batchics .infotasks {
+    padding-top: 33px;
+}
+
+.profileeditfs{
+	    padding: 12px 0 0 0;
+}
+
+.lnkstsks ul li a{
+	font-size: 20px;
+}
+.taskpanels.badgeinfos {
+    padding: 15px;
+}
+
+.taskpanels {
+    padding: 16px;
+}
+
+.infprogtsk.usesbs.missddls {
+    width: 38%;
+}
+
+.prodls p {
+    text-align: left;
+	    font-size: 15px;
+    line-height: 17px;
+}
+
+.thmdpr {
+    margin-right: 10px;
+}
+
+.resultdtas .table td .thmdpr img {
+    width: 35px;
+    height: 35px;
+}
+
+.resultdtas .table td{
+	padding: 5px 0;
+}
+
+.prodls {
+    margin: auto 0;
+}
+
+.prodls .placedsd {
+    font-size: 12px;
+}
+
+ul.loglns li {
+    width: 32%;
+    text-align: center;
+	text-align: left;
+}
+
+ul.loglns li:nth-child(3){
+	text-align: right;
+}
+
+ul.lts li:nth-child(1) img {
+    width: 13px;
+}
+
+ul.lts li {
+    display: flex;
+}
+
+ul.lts li img {
+    margin: auto 0px;
+    float: left;
+    margin-right: 10px;
+}
+
+ul.drk {
+    margin: 22px 0;
+}
+
+ul.loglns li a {
+    font-size: 14px;
+}
+
+.lnkstsks.recrevds ul li{
+	    margin: auto 8%;
+}
+
+.userinfowel .singuptxthds.rightsplsx {
+        right: 0;
+    top: 0;
+    position: relative;
+    padding: 0 0 0px 0;
+	    text-align: center;
+}
+
+.userinfowel .mainddon .singuptxthds.rightsplsx {
+    padding-bottom: 19px;
+}
+
+.userstacksin ul li:nth-child(3) img, .userstacksin ul li:nth-child(4) img{
+	    width: 35px;
+}
+
+.usrprdisdt h3{
+	font-size: 19px;
+}
+
+.usrprdisdt .thmbur{
+	width: 72px;
+    height: 70px;
+}
+
+.othersdts .col-6 {
+    padding: 11px;
+}
+
+.usrprdisdt a img {
+    width: 16px;
+}
+
+.othersdts .usrprdisdt{
+        margin-bottom: 0;
+}
+
+.playwithtud{
+	height: 194px;
+}
+.tuimodsb .applycta.transpabuts{
+	margin: 17px 4px;
+}
+
+.grdpinbgsa.darktct.workshops .worksdemosets:first-child {
+    padding-bottom: 30px;
+}
+
+.mainheadstop.ptdsmd .emojs{
+	    width: 19px;
+    top: -3px;
+}
+
+.mainheadstop .simis{
+	 font-size: 17px;
+}
+.pinkstripsd .submds{
+	font-size: 15px;
+}
+
+.mainheadstop p br {
+    display: none;
+}
+
+.singonlys {
+    padding-bottom: 0;
+	padding-top:17px;
+}
+
+.singonlys.ptmbs {
+    padding-top: 5px;
+}
+
+.darktct .taglnsd.ftimps{
+	font-size: 17px;
+}
+
+.signbtnshows.forjns {
+    margin-top: 57px;
+}
+
+.formtextarea textarea.form-control{
+	    padding: 11px 36px;
+}
+ 
+.signbtnshows.forjns ul {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.darktct.innercomnity .bolemojis{
+	    font-size: 17px;
+}
+.signupbgas .mainheadstop {
+    text-align: center;
+}
+
+.collargeares .mainheadstop .subhdblack.pnkhd{
+	line-height: 32px;
+}
+
+.followdbasic ul li a{
+	    display: block;
+}
+
+.submitctacenter.nxtprevscts {
+    display: flex;
+    flex-direction: row;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questsixths span .lvlups {
+   left: 65px;
+    width: 167px;
+    bottom: -51px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts br{
+    display: none;
+}
+
+
+.signfrms.questshows .mainheadstop.whitetxts.questsixths .subhdblack br {
+     display: none; 
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questseventeenth .subhdblack br {
+    display: none;
+}
+
+.mainheadstop.whitetxts .subhdblack span{display: inline-block;}
+
+.signfrms.questshows .mainheadstop.whitetxts.questseventeenth .subhdblack span .lvlups {
+    left: -2px;
+    width: 100px;
+	bottom: -8px;
+}
+
+.mainheadstop.whitetxts.questfourths .subhdblack span .lvlups{
+	    width: 102px;
+}
+
+.mainheadstop.whitetxts.questfifths .subhdblack span .lvlups{
+	width: 95px;
+    bottom: -14px;
+    left: 0;
+}
+
+.form-check.form-check-inline.selftypsd {
+    width: 240px;
+}
+.signfrms.questshows .form-option .form-check .form-check-label{
+	       width: 138px;
+			    font-size: 13px;
+}
+
+.signfrms.questshows .form-option .form-check{
+	margin: auto 6px;
+	    margin-bottom: 20px;
+}
+
+.submitctacenter.questtopspces .trasluccta{
+	    font-size: 16px;
+}
+
+.innerpagebgas {
+    background: url('./images/stepsinnemobile.jpg');
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: 0;
+    background-repeat: no-repeat;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questthirds .subhdblack span .lvlups {
+    width: 113px;
+    bottom: -5px;
+    left: 0;
+	
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questfourths .subhdblack span .lvlups{
+	    bottom: -8px;
+}
+
+.mainheadstop.whitetxts.questfirst1 .subhdblack span .lvlups {
+	width: 153px;
+	bottom: -5px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questsecond br {
+    display: inline-block;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questsixths .subhdblack br {
+    display: none;
+}
+
+.mainheadstop.whitetxts.questsecond .subhdblack  span .lvlups {
+   width: 102px;
+    bottom: -4px;
+    left: 8px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questsevenths .subhdblack span .lvlups {
+    width: 225px;
+    bottom: -8px;
+    left: 0;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questninths span .lvlups{
+	    bottom: -12px;
+}
+
+.mainheadstop.whitetxts.questelevntth .subhdblack span {
+    margin: 0 8px 0 0;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questtwelths .subhdblack span .lvlups{
+	bottom: -5px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questfourteenth .subhdblack span .lvlups {
+    bottom: -11px;
+    left: -4px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questsixteenteenth .subhdblack span .lvlups{
+	    bottom: -15px;
+    left: 0;
+}
+
+.signbtnshows.showlogsusrs {
+    margin-bottom: 30px;
+}
+
+.signfrms.questshows .mainheadstop {
+    text-align: center;
+}
+
+
+
+.signfrms.questshows .mainheadstop.whitetxts .subhdblack {
+    font-size: 29px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts .subhdblack{
+	    line-height: 34px;
+}
+
+.submitctacenter .trasluccta.gryshds {
+    width: 135px;
+    margin: 0 12px;
+}
+
+.singnformsbgs .mainheadstop.whitetxts {
+    text-align: center;
+}
+
+.singnformsbgs .mainheadstop.whitetxts .subhdblack span .lvlups {
+    width: 287px;
+    left: 0;
+}
+
+section.singnformsbgs {
+    background: url('../images/mobile-signbgs.jpg');
+    background-attachment: inherit;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.signfrms {
+    margin-top: 30px;
+}
+
+.singuptxthds {
+    text-align: center;
+}
+
+
+.followdbasic {
+    margin: auto;
+    text-align: left;
+}
+
+.followdbasic ul li {
+    display: block;
+    margin: auto;
+    margin-bottom: 9px;
+}
+
+.followdbasic ul li img {
+    width: 25px;
+}
+
+
+.signupbgas .mobilequal {
+    display: none;
+	width: 158%;
+    z-index: -2;
+    left: -138px;
+}
+
+
+.signupbgas {
+    background: url(../images/mobilesignups.jpg);
+    background-size: cover;
+    background-position: 71%;
+}
+
+.signupbgas .desktopqual {
+    display: none;
+	
+}
+
+.signbtnshows {
+    width: 100%;
+}
+
+.mainheadstop.whitetxts .subhdblack span .lvlups {
+    width: 103px;
+    bottom: -11px;
+    left: -8px;
+}
+
+
+
+.mainheadstop.whitetxts .subhdblack {
+    font-size: 35px;
+}
+
+.singonlys .mobilesbs {
+    border: 4px solid #fff;
+    width: 100%;
+	    display: block;
+}
+
+.singonlys .desktps {
+    display: none;
+}
+
+.mobsldsshow.firstmobbanners {
+    display: block;
+}
+
+.mntaresflvibe.owl-carousel.owl-theme .item .desktps {
+    display: none;
+}
+
+.mntaresflvibe.owl-carousel.owl-theme .item .mobilesbs {
+    display: block;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #e42579;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.mobsldsshow {
+    display: block;
+}
+
+.threegridscrls img {
+    width: 100%;
+}
+
+.threegridscrls {
+    height: 375px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+.collrges .dektpshow{
+	display:none;
+}
+
+.mentorsslidars .container {
+    padding: 0;
+}
+
+.collrges .mobshow {
+       display: block;
+       width: 100%;
+       transform: rotate(2deg);
+}
+
+.imgclgcent img {
+    transform: rotate(
+0deg
+);
+    border: 4px solid #ff008e;
+}
+
+.mainheadstop {
+    text-align: left;
+}
+
+
+.imgclgcent img {
+    width: 100%;
+}
+
+.midcontents img {
+        width: 84%;
+	    max-width: 376px;
+}
+
+.mainheadstop .subhdblack{
+	    font-size: 25px;
+}
+
+.tinderhmbanner .mobilequal {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+.tinderhmbanner .desktopqual {
+    display: none;
+}
+
+.transpabuts {
+    margin: 27px auto auto;
+    padding: 6px;
+}
+
+.tinderhmbanner {
+    height: 58vh;
+}
+
+.midcontents {
+    -ms-flex-item-align: end!important;
+    align-self: flex-end!important;
+	    margin-bottom: 30px;
+}
+
+.grdpinbgsa {
+    padding: 40px 0 70px 0;
+    background-image: -webkit-linear-gradient( 
+8deg
+ , #070d55, #070d55, #26115a, #46145f, #8b1b6b, #bd2173, #dc2478, #ed267b,#fa267c,#fa267c );
+}
+
+.darktct .taglnsd br {
+    display: none;
+}
+
+.collargeswithtab ul.nav-pills li.nav-item {
+    margin: 0 10px 0 0;
+}
+
+.collargeswithtab ul.nav-pills li.nav-item .nav-link {
+    font-size: 16px;
+}
+
+.collargeswithtab ul.nav-pills {
+    text-align: left;
+}
+
+.lightgrys {
+    padding: 30px 0;
+}
+
+.imgclgcent {
+    margin-top: 31px;
+}
+
+.igfeedous div {
+    padding: 6px;
+}
+
+
+
+.mainheadstop .subhdblack .tuhds {
+    width: 124px;
+    margin-bottom: 15px;
+}
+
+.mainheadstop .subhdblack .tumntors {
+    width: 196px;
+    margin-bottom: 15px;
+}
+
+.mainheadstop .subhdblack.pnkhd .slyngd {
+    width: 159px;
+    margin-bottom: 15px;
+}
+
+.mainheadstop .subhdblack .tumntors.tugiigs {
+    width: 144px;
+}
+
+.collargeswithtab {
+    padding-top: 15px;
+}
+
+.darktct .mainheadstop .subhdblack span img {
+    width: 97px;
+	    bottom: -8px;
+}
+
+.tndighere.grdpinbgsa.darktct .mainheadstop .subhdblack {
+    margin-bottom: 15px;
+}
+
+.grdpinbgsa.darktct .mainheadstop .subhdblack {
+    margin-bottom: 25px;
+}
+
+.partyare .collrges {
+    padding-top: 30px;
+}
+
+.meetourmnt.grdpinbgsa.darktct .taglnsd {
+    margin: 0;
+}
+
+.tndighere {
+    margin-bottom: 47px;
+}
+
+.blackpart ul li{
+	margin: auto 12%;
+}
+
+.meetourmnt.grdpinbgsa.darktct {
+    padding-bottom: 0;
+}
+
+.tinderhmbanner .transpabuts {
+    background: #ffffffc2;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.threegridscrls {
+    display: none;
+}
+
+.mainheadstop .subhdblack.smallbdtx {
+    font-size: 17px;
+}
+
+.mainheadstop .subhdblack.smallbdtx br.nosh {
+    display: none;
+}
+
+.mainheadstop .subhdblack.smallbdtx .emojs {
+    width: 19px;
+    position: relative;
+    top: -5px;
+    margin: 0 1px;
+}
+
+.collrges .mobshow.strght {
+    transform: rotate(0deg);
+}
+
+.partyare {
+    padding-bottom: 0px;
+}
+
+.darktct .mainheadstop .subhdblack.commnty span img {
+    width: 101px;
+    left: 14px;
+}
+
+.darktct  .bolemojis {
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.darktct .bolemojis .emojs {
+    width: 19px;
+    margin: 0 1px;
+}
+
+.icontxctnpats {
+    display: flex;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.icnthmb img {
+    width: 45px;
+}
+
+.iconinfos {
+    margin: auto 3px;
+}
+
+.iconinfos p {
+    font-family: 'Proxima Nova Rg';
+    font-size: 15px;
+	    margin: auto;
+}
+
+.responcontsd .col-lg-6:nth-child(3) .icontxctnpats{
+	    margin-bottom: 20px;
+}
+
+
+ .responcontsd .col-lg-6:nth-child(4) .icontxctnpats{
+	     margin-bottom: 0px;
+ }
+
+.icnthmb {
+    margin: 0 18px;
+}
+
+.rolesresponse .mainheadstop .subhdblack.pnkhd .slyngd {
+    width: 194px;
+}
+
+.responcontsd {
+    padding-top: 15px;
+}
+
+.responcontsd .col-lg-3:last-child .icontxctnpats {
+    margin-bottom: 0px;
+}
+
+.meetourmnt.grdpinbgsa.darktct.innercomnity {
+    background-image: -webkit-linear-gradient( 
+33deg
+ , #070d55, #070d55, #26115a, #46145f, #8b1b6b, #bd2173, #dc2478, #ed267b,#fa267c,#fa267c );
+}
+
+.tndighere.grdpinbgsa.darktct .mainheadstop .subhdblack.lowbolds {
+    font-family: 'Proxima Nova Rg';
+}
+
+
+.tndighere.grdpinbgsa.darktct.workshops .mainheadstop .subhdblack.lowbolds.midtex span img {left: 0;width: 54px;bottom: -7px;}
+
+.worksdemosets {
+    padding-bottom: 56px;
+}
+
+.worksdemosets:nth-child(1) .mobsldsshow {
+    padding-top: 11px;
+}
+
+.worksdemosets .mobsldsshow .item {
+    border: 3px solid #fff;
+}
+
+.worksdemosets .mobsldsshow .owl-theme .owl-dots {
+    bottom: -33px;
+    position: absolute;
+}
+
+.worksdemosets:last-child {
+    padding-bottom: 20px;
+}
+
+.tndighere.workshops {
+    margin-bottom: 0;
+}
+
+.vdobatchs img {
+    width: 100%;
+}
+
+.vdobatchs {
+    padding-bottom: 61px;
+}
+
+.grdpinbgsa.darktct .mainheadstop .subhdblack.lowbolds{
+	font-size: 25px;
+}
+
+.grdpinbgsa.darktct .subhdblack.tidigin span img{
+	width: 176px;
+    left: 5px;
+	bottom: -10px;
+}
+
+.tndighere.grdpinbgsa.darktct.workshops .mainheadstop .subhdblack.lowbolds.midtex.evnts span img {
+    width: 69px;
+    left: 4px;
+}
+
+.tndighere.grdpinbgsa.darktct.workshops .mainheadstop .subhdblack.lowbolds.midtex.mrch span img {
+    width: 66px;
+    left: 3px;
+}
+
+.grdpinbgsa.darktct .subhdblack.craters span img {
+    width: 84px;
+    bottom: -10px;
+    left: 11px;
+}
+
+.grdpinbgsa.darktct.workshops .worksdemosets:nth-child(1) .mobsldsshow {
+    padding-top: 15px;
+}
+
+.grdpinbgsa.darktct.workshops .worksdemosets {
+    padding-bottom: 45px;
+}
+
+.grdpinbgsa.darktct.workshops .worksdemosets .mobsldsshow {
+    padding: 10px 0;
+}
+
+.grdpinbgsa.darktct.workshops {
+    padding: 30px 0 0px 0; 
+	overflow: hidden;
+}
+
+.lightgrys.rolesresponse.batchreal {
+    padding-bottom: 48px;
+}
+
+.innercomnity.darktct .mainheadstop .subhdblack.commnty {
+    font-size: 25px;
+}
+
+.innercomnity.darktct .mainheadstop .subhdblack.commnty span img {
+    width: 100px;
+    left: 15px;
+    bottom: -8px;
+}
+
+.lightgrys.rolesresponse .mainheadstop .subhdblack.pnkhd .slyngd {
+    width: 294px;
+}
+
+.dashgridpan .col-6 {
+    padding: 11px 3px;
+}
+
+.indsh img{
+	    width: 57px;
+}
+
+.dashgridpan {
+    margin-bottom: 100px;
+}
+
+.badgarespls p {
+    width: auto;
+	display: inline-block;
+	margin: 4px 0;
+}
+
+.badgarespls {
+    width: 93%;
+	display: block;
+}
+
+.badgeiconssh {
+    float: right;
+}
+
+.badgeiconssh ul li {
+    margin: 0 5px;
+}
+
+.badgeiconssh ul li img {
+    width: 32px;
+}
+
+.profilepcs {
+    position: relative;
+}
+
+.editfil {
+    margin-bottom: 40px;
+}
+
+
+.bonusbdge{
+	width: 139px;
+	margin-bottom: 0px;
+}
+
+.myteamheads{
+	    height: 57px;
+}
+
+.badgeheds .profdtls {
+    margin-top: 14px;
+}
+
+.profdtls{
+	padding-top: 12px;
+}
+
+.resubcta {
+    padding: 4px 14px;
+}
+
+.mob-bt {
+    margin-bottom: 20px;
+}
+
+.corwninf .plccrns {
+    width: 50px;
+	    top: -25px;
+}
+
+.resultdtas .table td img{
+	width: 18px;
+}
+
+.usdt h4{
+	font-size: 25px;
+	margin:3px 0;
+}
+
+.uprcse h4{
+	    margin: 7px 0 0px 0px;
+}
+
+.profilemysho {
+    padding: 0px 0 60px 0;
+	    height: auto;
+}
+
+.profthmbs .usrths {
+    width: 100%;
+}
+
+.nomob-pd {
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.edipro .edipen {
+    right: 35px;
+	    bottom: -11px;
+}
+
+.profthmbs img {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.indsh a {
+  min-height: 149px;
+    padding: 10px 0 0 0;
+    max-width: 92%;
+}
+
+
+
+section.userinfowel.onlyinfosur.curnttwo {
+    height: 164px;
+}
+
+.dtltskarea {
+    margin-top: 20px;
+}
+
+.infnotif .cominfonotf {
+    color: #000;
+}
+
+.taskupldas {
+    margin-top: 0;
+}
+
+.taskupldas .themesub {
+    margin-bottom: 6px;
+    padding: 4px 0;
+    font-size: 16px;
+}
+
+p.droptxtupl {
+    margin-top: 17px;
+}
+
+.badgrels.pointcol {
+    right: 6px;
+	top: 11px;
+}
+
+.badgrels.pointcolm {
+    right: 4px;
+	top:10px;
+}
+
+.tasksubmods .modal-header .close {
+    margin: auto -15px auto auto;
+    padding: 6px 11px;
+}
+
+.lnkstsks.compltsk {
+    margin-bottom: 29px;
+}
+
+.lnkstsks {
+    margin-bottom: 43px;
+}
+
+ul.loglns {
+    display: flex;
+    flex-direction: row;
+	    margin-bottom: 22px;
+}
+
+.pictxholder{
+	max-width: 414px;
+}
+
+ }
+ 
+ 
+ 
+ @media only screen and (min-width: 768px) and (max-width: 900px) { 
+ .userinfowel .singuptxthds.rightsplsx{
+	right: 0;
+    position: relative;
+    top: 0;
+    padding: 0 0 15px 0;
+ }
+ 
+ .indsh a {
+    margin-bottom: 22px;
+}
+
+.userinfowel{
+	    height: 286px;
+}
+
+.userinfowel.onlyinfosur {
+    height: 206px;
+}
+
+.userinfowel.myteamheads{
+	    height: 57px;
+}
+
+.userinfowel.badgeheds {
+    height: 180px;
+}
+
+.userinfowel.leadonlyinfos {
+    height: 265px;
+}
+
+.userinfowel.profileeditfs .singuptxthds.rightsplsx {
+    padding: 15px 0;
+}
+
+ .signupbgas .desktopqual {
+    width: 260%;
+    z-index: -2;
+    left: -981px;
+}
+
+.signbtnshows {
+    width: 59%;
+}
+
+.tinderhmbanner .desktopqual {
+    width: 186%;
+    left: -372px;
+}
+
+.signupbgas{
+	    background-size: cover;
+}
+
+.singnformsbgs {
+    background-size: cover;
+}
+
+.pictxholder{
+	height: 395px;
+}
+
+ }
+ 
+ 
+ @media only screen and (min-width: 903px) and (max-width: 1024px) { 
+  .signupbgas{
+	    background-size: cover;
+}
+
+  .signupbgas .desktopqual {
+   width: 138%;
+   left: -200px;
+}
+
+.tinderhmbanner .desktopqual {
+    width: 152%;
+    left: -335px;
+}
+.singnformsbgs {
+    background-size: cover;
+}
+
+ }
+ 
+ 
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+	
+	.tinderhmbanner {
+    height: 54vh;
+}
+
+	}
+	
+	
+	/* 2340x1080 pixels at 476ppi */
+@media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) {
+		
+		.tinderhmbanner {
+    height: 54vh;
+}
+
+		}
+	
+	
+	@media only screen and (min-width: 412px) and (orientation: portrait) { 
+	.tinderhmbanner {
+    height: 59vh;
+}
+
+.threegridscrls{
+	height: 413px;
+}
+	}
+	
+	
+ @media only screen and (min-width: 1240px) and (max-width: 1300px) { 
+ .indsh a {
+    min-height: 161px;
+}
+
+section.dashgridpan {
+    padding-top: 0px;
+	    height: 53vh;
+}
+
+ .usrprdisdt h3{
+	 font-size: 22px;
+ }
+ 
+ .userinfowel .singuptxthds.rightsplsx{
+	     right: -156px;
+ }
+ 
+ 
+ }
+
+
+ @media only screen and (min-width: 1850px) and (max-width: 2500px) { 
+ .tinderhmbanner{
+	 height:91vh;
+ }
+ 
+ .profacssd h3 {
+    font-size: 50px;
+}
+
+ul.lts li {
+    font-size: 21px;
+}
+
+ul.lts li img {
+    width: 20px;
+}
+
+.profacssd p {
+    font-size: 21px;
+}
+
+ul.drk li a {
+    font-size: 17px;
+}
+
+ul.drk li img {
+    width: 16px;
+}
+
+ul.drk li:nth-child(3) img {
+    width: 17px;
+}
+
+ul.loglns li img {
+    width: 20px;
+}
+
+ul.loglns li a {
+    font-size: 21px;
+}
+
+.resultdtas {
+    max-width: 627px;
+    margin: auto;
+}
+
+.userinfowel{
+	height: 248px;
+}
+
+.badgeheds {
+    height: 220px;
+}
+
+.userinfowel.onlyinfosur{
+	    height: 171px;
+}
+
+.profilemysho .container {
+    margin: auto;
+	    max-width: 1400px;
+}
+
+.profilemysho {
+    height: 89vh;
+}
+
+.indsh a {min-height: 201px;}
+
+.indsh a p {
+    font-size: 22px;
+}
+
+.dashgridpan {
+    height: 59vh;
+	display: flex;
+    flex-direction: column;
+}
+
+.dashgridpan .container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+
+.myteamheads{
+	    height: 57px;
+}
+
+.lnkstsks ul li a{
+	font-size: 28px;
+}
+
+.infnotif .tskttls.comtasknot {
+    font-size: 21px;
+}
+
+.tskdates {
+    font-size: 17px;
+}
+
+.statustskd {
+    font-size: 20px;
+}
+
+.resltears {
+    font-size: 20px;
+}
+
+.lnkstsks.recrevds ul li{
+	margin: auto 13%;
+}
+
+.infnotif .ddln {
+    font-size: 20px;
+}
+
+.infnotif .cominfonotf {
+    font-size: 20px;
+}
+
+.infnotif .tskttls {
+    font-size: 20px;
+}
+
+.infotasks{
+	max-width: 606px;
+}
+
+
+.prodls p {
+    font-size: 20px;
+	line-height: 20px;
+}
+
+.resultdtas .table th:nth-child(2){
+	padding-left: 61px;
+}
+
+.prodls .placedsd {
+    font-size: 16px;
+}
+
+.resultdtas .table td .thmdpr img {
+    width: 40px;
+    height: 40px;
+}
+
+.resultdtas .table td {
+    font-size: 18px;
+}
+
+.resultdtas .table td img {
+    width: 28px;
+}
+
+section.leadboardars .resultdtas {
+    max-width: 690px;
+}
+
+.resultdtas .table th {
+    font-size: 18px;
+}
+ 
+ }

@@ -1,0 +1,2239 @@
+
+
+body {
+    font-family: 'Proxima Nova Lt';
+}
+
+
+
+@font-face {
+    font-family: 'Proxima Nova Th';
+    src: url('./fontsprximn/ProximaNova-Extrabld.woff2') format('woff2'),
+        url('./fontsprximn/ProximaNova-Extrabld.woff') format('woff'),
+        url('./fontsprximn/ProximaNova-Extrabld.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('./fontsprximn/ProximaNova-Semibold.woff2') format('woff2'),
+        url('./fontsprximn/ProximaNova-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('./fontsprximn/ProximaNova-Bold.woff2') format('woff2'),
+        url('./fontsprximn/ProximaNova-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+body {
+    font-family: 'Proxima Nova Lt';
+}
+
+
+.tinderhmbanner {
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+}
+
+.tinderhmbanner .desktopqual {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+}
+
+.midcontents img {
+    width: 414px;
+    margin: auto;
+}
+
+.transpabuts {
+    display: inline-block;
+    margin: 50px 0 0;
+    padding: 11px;
+    border: 2px solid #fff;
+    width: 200px;
+    margin: 50px auto auto;
+    border-radius: 39px;
+    color: #fff;
+    font-size: 20px;
+	transition: all ease-out 0.6s;
+}
+
+.transpabuts:hover{
+	text-decoration:none;
+	color:#fff;
+	    background-image: -webkit-linear-gradient( 
+0deg , #070d55bd, #070d55c9, #26115ac9, #46145fba, #46145fba, #46145fba, #dc2478ad, #ed267bc2,#fa267cc4,#fa267cbf );
+}
+
+
+.tinderhmbanner .transpabuts {
+    background: #ffffffc2;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    padding: 11px;
+    font-family: 'Proxima Nova Rg';
+	animation: change-background 2s ease-in-out infinite;
+}
+
+.stpformares .form-group i:after {content: "";width: 3px;height: 123%;border-left: 2px solid;transform: rotate(45deg);position: absolute;left: 8px;top: -2px;}
+.stpformares .form-group.active i:after {content: "";width: 3px;height: 123%;border-left: 2px solid #0000;transform: rotate(45deg);position: absolute;left: 8px;top: -2px;}
+
+
+@keyframes change-background {
+    
+	0% {  
+          background: #ffffffc2;
+    }
+
+    50% {
+        /* background: #ff008e85; */
+		background:#afaaaabd;
+    }
+
+    100% {
+          background: #ffffffc2;
+    }
+}
+
+/*.tinderhmbanner .transpabuts:hover {
+    background: #fb277c;
+    color: #fff;
+    transition: all ease 0.5s;
+    background-image: -webkit-linear-gradient( 
+0deg , #070d55bd, #070d55c9, #26115ac9, #46145fba, #46145fba, #46145fba, #dc2478ad, #ed267bc2,#fa267cc4,#fa267cbf );
+}*/
+
+.collrges {
+    width: 100%;
+    text-align: center;
+    padding-top: 23px;
+}
+
+.collrges .dektpshow {
+    width: 100%;
+}
+
+.lightgrys{
+	    background: #f8f8f8;
+		 padding: 58px 0;
+}
+
+
+.mainheadstop .subhdblack {
+    font-family: 'Proxima Nova Th';
+    font-size: 52px;
+}
+
+.mainheadstop .subhdblack .tuhds {
+    width: 127px;
+    margin-bottom: 21px;
+}
+
+
+/* drak part second section */
+
+
+.grdpinbgsa {
+    background-image: -webkit-linear-gradient( 
+41deg
+ , #070d55, #070d55, #26115a, #46145f, #8b1b6b, #bd2173, #dc2478, #ed267b,#fa267c,#fa267c );
+    padding: 58px 0;
+}
+
+.darktct .mainheadstop .subhdblack {
+    color: #fff;
+	margin-bottom: 42px;
+}
+
+.darktct .mainheadstop .subhdblack span img {
+    width: 154px;
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+}
+
+.darktct .mainheadstop .subhdblack span {
+    position: relative;
+}
+
+.mainheadstop .subhdblack .tumntors {
+    width: 163px;
+    margin-bottom: 16px;
+}
+
+.meetourmnt .mainheadstop .subhdblack .tumntors {
+    width: 198px;
+} 
+
+.darktct .taglnsd {
+    color: #fff;
+	    font-size: 16px;
+}
+
+.darktct .taglnsd.ftimps {
+    font-size: 25px;
+    font-family: 'Proxima Nova Lt';
+}
+
+.mentorsslidars {
+    padding-top: 30px;
+}
+
+/* drak part second end here section */
+
+.mainheadstop .subhdblack.pnkhd {
+    color: #ff0e94;
+	 
+}
+
+.collargeares .mainheadstop .subhdblack.pnkhd {
+	   line-height: 56px;
+}
+
+.mainheadstop .subhdblack.pnkhd .slyngd {
+    width: 172px;
+    margin-bottom: 21px;
+}
+
+
+/* collarge parts */
+
+.collargeswithtab {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.collargeswithtab ul.nav-pills {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.collargeswithtab ul.nav-pills li.nav-item {
+    display: inline-block;
+    margin: auto 51px;
+}
+
+.collargeswithtab ul.nav-pills li.nav-item .nav-link {
+    background: transparent;
+    color: #b2b2b2;
+    height: auto;
+    padding: 0;
+    font-size: 19px;
+    font-family: 'Proxima Nova Th';
+}
+
+.collargeswithtab ul.nav-pills li.nav-item .nav-link.active {
+    color: #000;
+}
+
+.imgclgcent {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.imgclgcent img {
+    border: 6px solid #ff008e;
+    max-width: 485px;
+    transform: rotate(0deg);
+}
+
+.tndighere .mainheadstop .subhdblack {}
+
+.tndighere .mainheadstop .subhdblack .emohsa {
+    position: relative;
+    width: 29px;
+    top: -13px;
+    bottom: 0;
+}
+
+.igfeedous img {
+    width: 100%;
+}
+
+.followmids {
+    text-align: center;
+}
+
+.mainheadstop {
+    text-align: center;
+}
+
+
+.tinderhmbanner .mobilequal {
+    display: none;
+}
+
+/* footer css */
+
+.blackpart {
+    background: #000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.blackpart ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+	display:block;
+}
+
+.blackpart ul li {
+    display: inline-block;
+    margin: auto 10%;
+	position: relative;
+    text-align: center;
+}
+
+.blackpart ul li .hvrbtn {
+    position: absolute;
+    top: -54px;
+    left: -37px;
+    right: 0;
+    margin: auto;
+    width: 100px;
+   /* background: #ff008e;
+    color: #fff; */
+	    background: #fff;
+    color: #ff008e;
+    padding: 3px 0;
+    border-radius: 21px;
+    font-family: 'Proxima Nova Lt';
+    font-size: 14px;
+	opacity: 1;
+    visibility: visible;
+    transition: all ease 0.5s;
+	animation: cssAnimation 1s 4s forwards;
+	box-shadow: #00000014 -1px 5px 6px 1px;
+}
+
+.blackpart ul li .hvrbtn:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    /*border-top: 10px solid #ff008e; */
+	border-top: 10px solid #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -9px;
+    margin: auto;
+}
+
+
+
+
+.blackpart ul li:nth-child(3) .hvrbtn {
+   animation: cssAnimation 7s 3s forwards infinite;
+    opacity: 1;
+    visibility: visible;
+}
+
+.blackpart ul li .hvrbtn {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sitefootes {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9;
+	left: 0;
+}
+
+.blackpart ul li a img {
+    width: 25px;
+    filter: brightness(0%) invert(1);
+}
+
+.blackpart ul li:nth-child(3) img {
+    width: 23px;
+}
+
+.blackpart ul li.active a img {
+    filter: inherit;
+}
+
+.collrges .mobshow {
+    display: none;
+}
+
+
+
+/* footer css */
+
+.tndighere {
+    margin-bottom: 48px;
+}
+
+.blackpart ul li.active .hvrbtn {
+    opacity: 1;
+    visibility: visible;
+    animation: cssAnimationhvr 1s 2s forwards;
+}
+
+@keyframes cssAnimationhvr {
+   0%   {opacity: 1;}
+    50%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes cssAnimation {
+   0%   {opacity: 1;}
+    50%  {opacity: 1;}
+     60%  {opacity: 1;}
+ 70%  {opacity: 0;}
+ 80%  {opacity: 0;}
+ 90%  {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.threegridscrls img {
+    width: 100%;
+}
+
+.mobsldsshow {
+    display: none;
+}
+
+
+/* Our vive page */
+
+.mainheadstop .subhdblack.smallbdtx {
+    font-size: 25px;
+}
+
+.mainheadstop .subhdblack.smallbdtx .emojs {
+    position: relative;
+    width: 26px;
+    top: -8px;
+    margin: 0 4px;
+}
+
+.partyare {
+    padding-bottom: 0;
+}
+
+.innercomnity.darktct .mainheadstop .subhdblack.commnty {
+    margin-bottom: 29px;
+    font-size: 42px;
+}
+
+.innercomnity.darktct .mainheadstop .subhdblack.commnty span img {
+    width: 164px;
+    left: 20px;
+}
+
+.darktct.innercomnity .bolemojis {
+    font-size: 25px;
+    margin: 0;
+    line-height: 27px;
+}
+
+.darktct.innercomnity .bolemojis .emojs {
+    width: 22px;
+}
+
+.darktct.innercomnity .mobsldsshow {
+    display: block;
+}
+
+.mntaresflvibe.owl-carousel.owl-theme .item .mobilesbs {
+    display: none;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #e42579;
+}
+
+.grdpinbgsa.darktct.innercomnity {
+    padding-bottom: 33px;
+}
+
+.icontxctnpats {
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+
+.iconinfos p {
+    font-family: 'Proxima Nova Rg';
+    font-size: 18px;
+}
+
+.icnthmb img {
+    width: 76px;
+}
+
+.responcontsd .col-lg-6:nth-child(3) .icontxctnpats, .responcontsd .col-lg-6:nth-child(4) .icontxctnpats {
+    margin-bottom: 0;
+}
+
+.lightgrys.rolesresponse {
+    padding: 40px 0;
+}
+
+.lightgrys.rolesresponse .mainheadstop .subhdblack.pnkhd .slyngd {
+    width: 287px;
+}
+
+.lightgrys.rolesresponse .mainheadstop .subhdblack.pnkhd.btcreels .slyngd {
+    width: 203px;
+}
+
+.grdpinbgsa.darktct.workshops {
+    padding: 40px 0 20px 0;
+	background-image: -webkit-linear-gradient( 
+12deg
+ , #070d55, #070d55, #26115a, #46145f, #8b1b6b, #bd2173, #dc2478, #ed267b,#fa267c,#fa267c );
+ margin-bottom: 0;
+}
+
+.grdpinbgsa.darktct .mainheadstop .subhdblack.lowbolds {
+    font-size: 42px;
+    font-family: 'Proxima Nova Rg';
+}
+
+.worksdemosets .mobsldsshow {
+    display: block;
+}
+
+.lightgrys.rolesresponse.batchreal {
+    padding-bottom: 108px;
+}
+
+.playwithtud {
+    width: 100%;
+    height: 628px;
+}
+
+.grdpinbgsa.darktct .subhdblack.tidigin span img {
+    width: 290px;
+    left: 13px;
+}
+
+
+.grdpinbgsa.darktct .subhdblack.evnts span img {
+    width: 115px;
+    left: 6px;
+}
+
+.grdpinbgsa.darktct .subhdblack.mrch span img {
+    width: 115px;
+    bottom: -12px;
+    left: 4px;
+}
+
+
+.grdpinbgsa.darktct .subhdblack.craters span img {
+   width: 144px;
+    bottom: -17px;
+    left: 15px;
+}
+
+.partyare .collrges {
+    padding-top: 50px;
+}
+
+.grdpinbgsa.darktct.workshops .worksdemosets:nth-child(1)  .mobsldsshow {
+    padding-top: 30px;
+}
+
+.grdpinbgsa.darktct.workshops .worksdemosets .mobsldsshow {
+    padding: 34px 0;
+}
+
+.grdpinbgsa.darktct.workshops .subhdblack.lowbolds {
+    margin-bottom: 15px;
+}
+
+.vdobatchs img{
+	width:100%;
+}
+
+
+.singonlys .desktps {
+    width: 100%;
+}
+
+
+.singonlys {
+    padding-top: 30px;
+    padding-bottom: 34px;
+}
+
+.mobsldsshow.firstmobbanners {
+    display: none;
+}
+
+/*signuppage */
+
+.signupbgas {
+    position: relative;
+    width: 100%;
+	height: 100vh;
+	overflow:hidden;
+	background: url(./images/signupdesktopbg.jpg);
+    background-size: 100%;
+    background-position: bottom;
+}
+
+.signupbgas .desktopqual {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -2;
+}
+
+.signupbgas .mobilequal {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -2;
+}
+
+
+.mainheadstop.whitetxts .subhdblack {
+    color: #fff;
+}
+
+.midarksho {
+    margin: auto;
+    width: 100%;
+}
+
+.mainheadstop.whitetxts .subhdblack span {
+    position: relative;
+}
+
+.mainheadstop.whitetxts .subhdblack span .lvlups {
+    position: absolute;
+    bottom: -26px;
+    width: 266px;
+    left: 0;
+}
+
+.signbtnshows ul li {
+    margin: auto 18px;
+    display: inline-block;
+}
+
+.signbtnshows ul {list-style-type: none;padding: 0;margin: 0;}
+
+.signbtnshows ul li .transctas {
+    color: #fff;
+    font-size: 21px;
+    border: 1.5px solid #fff;
+    padding: 5px 2px;
+    border-radius: 33px;
+    width: 134px;
+    display: inline-block;
+	    text-decoration: none;
+		transition: all ease 0.5s;
+}
+
+.signbtnshows ul li .transctas:hover {
+    color: #fff;
+    background-image: -webkit-linear-gradient( 
+0deg , #070d55bd, #070d55c9, #26115ac9, #46145fba, #46145fba, #46145fba, #dc2478ad, #ed267bc2,#fa267cc4,#fa267cbf );
+}
+
+.signbtnshows {
+    margin: 30px auto;
+    max-width: 700px;
+    border-bottom: 1.5px solid #fff;
+    padding-bottom: 30px;
+	margin-top: 129px;
+	width: 39%;
+}
+
+.followdbasic {
+    margin-top: 30px;
+}
+
+.followdbasic ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.followdbasic ul li {
+    display: inline-block;
+    margin: auto 14px;
+}
+
+.followdbasic ul li a {
+    color: #fff;
+    font-family: 'Proxima Nova Th';
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 19px;
+	    text-decoration: none;
+}
+
+.followdbasic ul li img {
+    width: 20px;
+	filter: brightness(0%) invert(1);
+    margin: auto 10px;
+}
+
+
+/* signup page steps one */
+
+.singnformsbgs {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(./images/sign-up-new.jpg);
+    background-size: 100%;
+    background-position: center;
+    padding: 0px 0 0 0;
+    background-attachment: fixed;
+}
+
+.singnformsbgs .mainheadstop.whitetxts .subhdblack span .lvlups {
+    width: 289px;
+}
+
+.singuptxthds {
+    text-align: left;
+}
+
+.singuptxthds.rightsplsx {
+    right: 56px;
+}
+
+.singuptxthds img {
+    width: 100px;
+}
+
+.stpformares {
+    max-width: 416px;
+    margin: auto;
+    margin-top: 0px;
+}
+
+.stpformares .mainheadstop.whitetxts {
+    margin-bottom: 56px;
+}
+
+.singnformsbgs .mainheadstop.whitetxts .subhdblack {
+    font-size: 30px;
+}
+
+.stpformares .form-group .form-control {
+    font-family: 'Proxima Nova Lt';
+    color: #a8a8a8;
+    font-weight: 100;
+    padding: 10px 13px;
+	height: 45px;
+}
+
+.stpformares .form-group .form-control::placeholder {
+    font-family: 'Proxima Nova Lt';
+    color: #a8a8a8;
+    font-weight: inherit;
+}
+
+.stpformares .form-group  span.help-block {
+    text-align: left;
+    display: block;
+    color: #ff3434;
+}
+
+.datepicker-panel > ul > li.highlighted {
+    background: linear-gradient(
+45deg, #fd2c78, #ff008e);
+color: #fff;
+}
+
+
+.datepicker-panel > ul[data-view="week"] > li, .datepicker-panel > ul[data-view="week"] > li:hover {
+    background-color: #ff008e;
+    cursor: default;
+    color: #fff;
+} 
+
+.datepicker-panel > ul > li {
+    background-color: #ffffff;
+    color: #030202;
+} 
+
+.datepicker-panel > ul > li.muted{
+    color: #a09999;
+}
+
+.datepicker-panel > ul > li.muted:hover {
+    color: #fff;
+}
+
+.datepicker-panel > ul > li.picked, .datepicker-panel > ul > li.picked:hover{
+	    color: #000;
+}
+
+.datepicker-panel > ul > li:hover{
+	    background-color: rgb(0 0 0);
+    color: #fff;
+}
+
+.datepicker-panel > ul > li.highlighted.picked {
+    color: #fff;
+}
+
+.submitctacenter .trasluccta {
+    color: #fff;
+    font-size: 21px;
+    border: none;
+	box-shadow: #ffffff 0px 0px 0px 1.5px;
+    padding: 4px 2px;
+    border-radius: 33px;
+    width: 163px;
+    display: inline-block;
+    text-decoration: none;
+    background: transparent;
+	transition:all ease 0.4s;
+	margin: 0 20px;
+}
+
+.submitctacenter .trasluccta:hover {
+    background-image: -webkit-linear-gradient( 
+355deg
+ , #070d55bd, #070d55c9, #26115ac9, #46145fba, #46145fba, #46145fba, #dc2478ad, #ed267bc2,#fa267cc4,#fa267cbf );
+   box-shadow: #00000000 0px 0px 0px 1.5px;
+}
+
+.stpformares .form-group {
+    margin-bottom: 26px;
+	    position: relative;
+}
+
+.signfrms.questshows .form-option .form-check .form-control:focus {
+    box-shadow: none;
+}
+
+.stpformares .form-group i.far.fa-eye {
+    position: absolute;
+    top: 14px;
+    right: 9px;
+    color: #a8a8a8;
+	cursor: pointer;
+}
+
+p.alrsdy {
+    margin-top: 10px;
+    color: #fff;
+}
+
+p.alrsdy a {
+    color: #fff;
+    display: inline-block;
+    border-bottom: 2px solid #ff008e;
+}
+
+.submitctacenter .trasluccta.gryshds:hover {
+    background: #a5a0a4b3;
+}
+
+.submitctacenter .trasluccta.gryshds {
+    width: 135px;
+}
+
+.singuptxthds {
+    position: absolute;
+    top: 36px;
+}
+
+
+.signbtnshows.showlogsusrs {
+    margin-top: auto;
+}
+
+.signbtnshows.showlogsusrs h4, .signbtnshows.showlogsusrs p {
+    color: #fff;
+}
+
+.signbtnshows.showlogsusrs h4 {
+    font-size: 37px;
+}
+
+.signbtnshows.showlogsusrs p {
+    font-size: 19px;
+}
+
+.signbtnshows.showlogsusrs {
+    padding-bottom: 0;
+    margin: 0 auto;
+}
+
+
+/* question part tinders */
+
+.innerpagebgas {
+    background: url('./images/stepsinnerbga.jpg');
+    position: relative;
+    width: 100%;
+    height: 98vh;
+    overflow: hidden;
+    background-size: 100%;
+    background-position: bottom;
+}
+
+
+
+
+.signfrms.questshows .stpformares {
+    max-width: initial;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts .subhdblack {
+    font-size: 30px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts .subhdblack span .emoqts {
+    width: 32px;
+    position: relative;
+    top: -3px;
+}
+
+
+
+.signfrms.questshows .form-option {
+    width: 100%;
+}
+
+.signfrms.questshows .form-option .form-check .form-check-input {
+    display: none;
+}
+
+.signfrms.questshows .form-option .form-check {
+    border: 1.5px solid #fff;
+    margin: auto 12px;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    position: relative;
+	transition:all ease 0.5s;
+}
+
+.signfrms.questshows .form-option .form-check .form-check-label {
+    color: #fff;
+    font-size: 17px;
+    position: relative;
+    padding: 7px 0px;
+    font-weight: bold;
+    font-family: 'Proxima Nova Rg';
+	cursor: pointer;
+	width: 154px;
+}
+
+.form-control.othergender.othersc,
+.form-control.othercity.othersc {
+    margin-top: 26px;
+}
+
+.signfrms.questshows .form-option .form-check.active, .signfrms.questshows .form-option .form-check.active:hover{
+    background:#fd267d;
+    border: 1.5px solid #fd267d; 
+}
+
+.submitctacenter.text-center.questtopspces {
+    margin-top: 50px;
+}
+
+.mainheadstop.whitetxts.questfirst1 .subhdblack span .lvlups {
+    width: 154px;
+    bottom: -13px;
+    left: 7px;
+}
+
+.mainheadstop.whitetxts.questsecond .subhdblack  span .lvlups {
+    width: 133px;
+    bottom: -13px;
+}
+
+.signfrms.questshows .form-option .form-check input.form-control {
+    background: transparent;
+    border: none;
+    color: #fff;
+    text-align: center;
+}
+
+.signfrms.questshows .form-option .form-check input.form-control::placeholder {
+    color: #fff;
+}
+
+.signfrms.questshows .form-option .form-check input.form-control:hover {
+    background: transparent;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questthirds .subhdblack span .emoqts {
+    width: 81px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questthirds .subhdblack span  .lvlups {
+    width: 145px;
+    bottom: -14px;
+}
+
+.form-check.form-check-inline.selftypsd {
+    width: 324px;
+}
+
+.signfrms.questshows  .form-check.form-check-inline.selftypsd:hover{
+	  background: transparent;
+	      border: 1.5px solid #fff;
+}
+
+
+.formtextarea textarea.form-control {
+    background: transparent;
+    border: 1.5px solid #fff;
+    border-radius: 53px;
+    height: 80px;
+    padding: 19px 36px;
+	
+}
+
+.signfrms.questshows .formtextarea .form-control:focus {
+    box-shadow: none;
+}
+
+.signfrms.questshows .formtextarea textarea.form-control{
+	color: #fff;
+}
+.formtextarea {
+    max-width: 576px;
+    margin: auto;
+} 
+
+.formtextarea textarea.form-control::placeholder {
+   color: #ffffffa8;
+    font-size: 18px;
+}
+
+
+.signfrms.questshows .mainheadstop.whitetxts.questfourths .subhdblack span .lvlups {
+    width: 119px;
+    bottom: -17px;
+    left: 16px;
+}
+
+.signfrms.questshows 
+ .mainheadstop.whitetxts.questfourths .subhdblack span .emoqts {
+    top: -5px;
+    position: relative;
+    width: 32px;
+}
+
+
+.signfrms.questshows .mainheadstop.whitetxts.questfifths span .lvlups {
+    width: 120px;
+    bottom: -14px;
+    left: 0;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questfifths span .emoqts {
+    width: 49px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questsixths span .lvlups {
+    left: 41px;
+    width: 233px;
+    bottom: -20px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questsixths .subhdblack span .emoqts {
+    width: 31px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questsevenths .subhdblack span .lvlups {
+    width: 237px;
+    bottom: -16px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questsevenths .subhdblack span .emoqts {
+    width: 31px;
+}
+
+
+.signfrms.questshows .mainheadstop.whitetxts.questeights .subhdblack span .lvlups {
+    width: 238px;
+    left: 27px;
+    bottom: -21px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questeights .subhdblack span .emoqts {
+    width: 26px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questninths span .lvlups {width: 114px;left: 44px;bottom: -18px;}
+
+.signfrms.questshows .mainheadstop.whitetxts.questninths span  .emoqts {
+    width: 21px;
+    top: -7px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questtenths .subhdblack span .lvlups {
+    width: 121px;
+        left: 30px;
+    bottom: -15px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questelevntth .subhdblack span .lvlups {
+    width: 91px;
+    bottom: -8px;
+    left: -3px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questelevntth .subhdblack .emoqts {
+    width: 40px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questtwelths .subhdblack span .lvlups {
+    width: 140px;
+    bottom: -15px;
+    left: -5px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts .subhdblack {
+    line-height: 42px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questthirteenth .subhdblack span .lvlups {
+    width: 101px;
+    bottom: -13px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questthirteenth .subhdblack span .emoqts {
+    width: 25px;
+    top: -7px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questfourteenth .subhdblack span .lvlups {
+    width: 149px;
+    bottom: -20px;
+    left: -4px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questfourteenth .subhdblack span .emoqts {
+    width: 29px;
+    top: -11px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questfifteenth .subhdblack span .lvlups {
+    width: 93px;
+    bottom: -12px;
+    left: -8px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questfifteenth .subhdblack span .emoqts {
+    width: 55px;
+    top: -8px;
+}
+
+
+.signfrms.questshows .mainheadstop.whitetxts.questsixteenteenth .subhdblack span .lvlups {
+    width: 171px;
+    bottom: -19px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questsixteenteenth .subhdblack span .emoqts {
+    width: 26px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questseventeenth .subhdblack span .lvlups {
+    width: 113px;
+    bottom: -14px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questseventeenth .subhdblack span .emoqts {
+    width: 31px;
+    top: -8px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questeighteenths .subhdblack .emoqts {
+    width: 24px;
+    position: relative;
+    top: -3px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questeighteenths .subhdblack .lvlups {
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    bottom: -9px;
+    left: -35px;
+    right: 0;
+    width: 236px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questeighteenths .subhdblack {
+    position: relative;
+}
+
+.homeinnrs {
+    background: #f8f8f8;
+    height: 100vh;
+}
+
+.homeinnrs .signfrms.questshows .mainheadstop.whitetxts .subhdblack {
+    color: #000;
+}
+
+.trasluccta.gryshds.pureprads, .trasluccta.gryshds.pureprads:hover {
+    background-image: -webkit-linear-gradient( 
+62deg
+ , #070d55, #421460, #4b1561, #581663, #46145f, #46145f, #761a68, #ba2173,#d42377,#fa267c );
+}
+
+
+.form-group.sltarrowssh:after {
+    content: "";
+    position: absolute;
+    right: 14px;
+    width: 11px;
+    height: 11px;
+    background: transparent;
+    top: 13px;
+    z-index: 9;
+    border-top: 2px solid #bfbfbf;
+    border-left: 2px solid #bfbfbf;
+    transform: rotate(
+-136deg);
+}
+
+.stpformares .form-group select.form-control {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+/* css for arrows */
+
+.mntaresflvibe.owl-theme .owl-nav [class*=owl-] {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+}
+
+.mntaresflvibe.owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent;
+    outline: none;
+    text-align: center;
+}
+
+.mntaresflvibe.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    font-size: 0;
+}
+
+
+.mntaresflvibe.owl-carousel .owl-nav button span {
+	    width: 11px;
+    height: 11px;
+    top: 13px;
+    z-index: 9;
+    border-top: 3px solid #ffffff;
+    border-left: 3px solid #ffffff;
+    transform: rotate( 
+134deg);
+    padding: 15px;
+    display: inline-block;
+}
+
+.mntaresflvibe.owl-carousel .owl-nav button.owl-prev span {
+    transform: rotate( 
+-45deg);
+}
+
+.mntaresflvibe.owl-carousel .owl-nav button.owl-next span {
+    transform: rotate( 
+134deg);
+}
+
+.mntaresflvibe.owl-carousel .owl-nav button {
+    outline: none;
+}
+
+.mntaresflvibe.owl-theme .owl-nav {
+    position: relative;
+    top: -353px;
+}
+
+
+.mntaresflvibe.owl-theme .owl-nav .owl-next {
+    float: right;
+    position: relative;
+    right: -52px;
+}
+
+.mntaresflvibe.owl-theme .owl-nav .owl-prev {
+    float: left;
+    position: relative;
+    left: -51px;
+}
+
+
+
+div#othergenderautocomplete-list, div#city_othersautocomplete-list {
+    background: #fff;
+    text-align: left;
+    padding: 0px 0px;
+    color: #a8a8a8;
+	height: auto;
+    max-height: 100px;
+    overflow: auto;
+}
+
+div#othergenderautocomplete-list div, div#city_othersautocomplete-list div {
+    padding: 1px 13px;
+}
+
+div#othergenderautocomplete-list div:hover, div#city_othersautocomplete-list div:hover{
+    background: #f7f7f7;
+}
+
+/* Track */
+.autocomplete-items::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.autocomplete-items::-webkit-scrollbar-thumb {
+   background: #fb2a7e;  
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.autocomplete-items::-webkit-scrollbar-thumb:hover {
+   background: #ff7357; 
+}
+
+/* width */
+.autocomplete-items::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.autocomplete-items::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+
+.mentorsslidars img.desktps, .bdrwls .desktps{
+    border: 4px solid #fff;
+}
+
+.singonlys .mobilesbs {
+    display: none;
+}
+
+
+section.pinkstripsd {
+    background: #ff008e;
+    padding: 7px 0;
+}
+
+.pinkstripsd .submds {
+    margin: 0;
+    color: #fff;
+    font-family: 'Proxima Nova Th';
+    font-size: 21px;
+}
+
+.mainheadstop .simis {
+    font-size: 25px;
+    font-family: 'Proxima Nova Lt';
+}
+
+.mainheadstop.ptdsmd .emojs {
+    position: relative;
+    width: 26px;
+    top: -2px;
+    margin: 0 4px;
+}
+
+.singuptxthds.midplsx {
+    position: relative;
+    margin: auto;
+    top: -51px;
+}
+
+.singuptxthds.midplsx img {
+    width: 135px;
+}
+
+.mentorsslidars img{    transition: all ease 0.5s;}
+.mentorsslidars img:hover {
+  
+} 
+
+.mentorsslidars .bdrplya {
+    position: relative;
+    transition: all ease 0.5s;
+}
+
+.mentorsslidars .bdrplya:after {transition: all cubic-bezier(0.55, 0.09, 0.68, 0.53) 0.5s;content: "";position: absolute;left: 13px;bottom: 0;width: 100px;height: 100px;border-left: 2px solid #fff0;border-bottom: 2px solid #fff0;}
+
+.mentorsslidars .bdrplya:before {
+        content: "";
+        position: absolute;
+        right: 14px;
+        top: 0;
+        width: 100px;
+        height: 100px;
+        border-right: 2px solid #fff0;
+        border-top: 2px solid #fff0;
+        transition: all ease 0.5s;
+}
+
+
+
+.mentorsslidars .bdrplya:hover:after {
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.mentorsslidars .bdrplya:hover:before{
+    border-right: 2px solid #fff;
+        border-top: 2px solid #fff;
+}
+
+.singuptxthds.rightsplsx img {
+    width: 117px;
+}
+
+/* responsive media */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) { 
+
+.playwithtud{
+	height: 194px;
+}
+
+.singuptxthds.rightsplsx {
+    right: 19px;
+}
+
+.singuptxthds.rightsplsx img {
+    width: 120px;
+}
+
+.grdpinbgsa.darktct.workshops .worksdemosets:first-child {
+    padding-bottom: 30px;
+}
+
+.mainheadstop.ptdsmd .emojs{
+	    width: 19px;
+    top: -3px;
+}
+
+.mainheadstop .simis{
+	 font-size: 17px;
+}
+.pinkstripsd .submds{
+	font-size: 15px;
+}
+
+.mainheadstop p br {
+    display: none;
+}
+
+.singonlys {
+    padding-bottom: 0;
+	    padding-top: 17px;
+}
+
+.singonlys.ptmbs {
+    padding-top: 5px;
+}
+
+.darktct .taglnsd.ftimps{
+	font-size: 17px;
+}
+
+.signbtnshows.forjns {
+    margin-top: 57px;
+}
+
+.formtextarea textarea.form-control{
+	    padding: 11px 36px;
+}
+ 
+.signbtnshows.forjns ul {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.darktct.innercomnity .bolemojis{
+	    font-size: 17px;
+}
+.signupbgas .mainheadstop {
+    text-align: center;
+}
+
+.collargeares .mainheadstop .subhdblack.pnkhd{
+	line-height: 32px;
+}
+
+.followdbasic ul li a{
+	    display: block;
+}
+
+.submitctacenter.nxtprevscts {
+    display: flex;
+    flex-direction: row;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questsixths span .lvlups {
+   left: 65px;
+    width: 167px;
+    bottom: -51px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts br{
+    display: none;
+}
+
+
+.signfrms.questshows .mainheadstop.whitetxts.questsixths .subhdblack br {
+     display: none; 
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questseventeenth .subhdblack br {
+    display: none;
+}
+
+.mainheadstop.whitetxts .subhdblack span{display: inline-block;}
+
+.signfrms.questshows .mainheadstop.whitetxts.questseventeenth .subhdblack span .lvlups {
+    left: -2px;
+    width: 100px;
+	bottom: -8px;
+}
+
+.mainheadstop.whitetxts.questfourths .subhdblack span .lvlups{
+	    width: 102px;
+}
+
+.mainheadstop.whitetxts.questfifths .subhdblack span .lvlups{
+	width: 95px;
+    bottom: -14px;
+    left: 0;
+}
+
+.form-check.form-check-inline.selftypsd {
+    width: 240px;
+}
+.signfrms.questshows .form-option .form-check .form-check-label{
+	       width: 138px;
+			    font-size: 13px;
+}
+
+.signfrms.questshows .form-option .form-check{
+	margin: auto 6px;
+	    margin-bottom: 20px;
+}
+
+.submitctacenter.questtopspces .trasluccta{
+	    font-size: 16px;
+}
+
+.innerpagebgas {
+    background: url('./images/stepsinnemobile.jpg');
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: 0;
+    background-repeat: no-repeat;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questthirds .subhdblack span .lvlups {
+    width: 113px;
+    bottom: -5px;
+    left: 0;
+	
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questfourths .subhdblack span .lvlups{
+	    bottom: -8px;
+}
+
+.mainheadstop.whitetxts.questfirst1 .subhdblack span .lvlups {
+	width: 153px;
+	bottom: -5px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questsecond br {
+    display: inline-block;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questsixths .subhdblack br {
+    display: none;
+}
+
+.mainheadstop.whitetxts.questsecond .subhdblack  span .lvlups {
+   width: 102px;
+    bottom: -4px;
+    left: 8px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questsevenths .subhdblack span .lvlups {
+    width: 225px;
+    bottom: -8px;
+    left: 0;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questninths span .lvlups{
+	    bottom: -12px;
+}
+
+.mainheadstop.whitetxts.questelevntth .subhdblack span {
+    margin: 0 8px 0 0;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questtwelths .subhdblack span .lvlups{
+	bottom: -5px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questfourteenth .subhdblack span .lvlups {
+    bottom: -11px;
+    left: -4px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts.questsixteenteenth .subhdblack span .lvlups{
+	    bottom: -15px;
+    left: 0;
+}
+
+.signbtnshows.showlogsusrs {
+    margin-bottom: 30px;
+}
+
+.signfrms.questshows .mainheadstop {
+    text-align: center;
+}
+
+
+
+.signfrms.questshows .mainheadstop.whitetxts .subhdblack {
+    font-size: 29px;
+}
+
+.signfrms.questshows .mainheadstop.whitetxts .subhdblack{
+	    line-height: 34px;
+}
+
+.submitctacenter .trasluccta.gryshds {
+    width: 135px;
+    margin: 0 12px;
+}
+
+.singnformsbgs .mainheadstop.whitetxts {
+    text-align: center;
+}
+
+.singnformsbgs .mainheadstop.whitetxts .subhdblack span .lvlups {
+    width: 287px;
+    left: 0;
+}
+
+section.singnformsbgs {
+    background: url('./images/mobile-signbgs.jpg');
+    background-attachment: inherit;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.signfrms {
+    margin-top: 30px;
+}
+
+.singuptxthds {
+    text-align: center;
+}
+
+
+.followdbasic {
+    margin: auto;
+    text-align: left;
+}
+
+.followdbasic ul li {
+    display: block;
+    margin: auto;
+    margin-bottom: 9px;
+}
+
+.followdbasic ul li img {
+    width: 25px;
+}
+
+
+.signupbgas .mobilequal {
+    display: none;
+	width: 158%;
+    z-index: -2;
+    left: -138px;
+}
+
+
+.signupbgas {
+    background: url(./images/mobilesignups.jpg);
+    background-size: cover;
+    background-position: 71%;
+}
+
+.signupbgas .desktopqual {
+    display: none;
+	
+}
+
+.signbtnshows {
+    width: 100%;
+}
+
+.mainheadstop.whitetxts .subhdblack span .lvlups {
+    width: 135px;
+    bottom: -16px;
+    left: 22px;
+}
+
+.mainheadstop.whitetxts .subhdblack {
+    font-size: 35px;
+}
+
+.singonlys .mobilesbs {
+    border: 4px solid #fff;
+    width: 100%;
+	    display: block;
+}
+
+.singonlys .desktps {
+    display: none;
+}
+
+.mobsldsshow.firstmobbanners {
+    display: block;
+}
+
+.mntaresflvibe.owl-carousel.owl-theme .item .desktps {
+    display: none;
+}
+
+.mntaresflvibe.owl-carousel.owl-theme .item .mobilesbs {
+    display: block;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #e42579;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.mobsldsshow {
+    display: block;
+}
+
+.threegridscrls img {
+    width: 100%;
+}
+
+.threegridscrls {
+    height: 375px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+.collrges .dektpshow{
+	display:none;
+}
+
+.mentorsslidars .container {
+    padding: 0;
+}
+
+.collrges .mobshow {
+       display: block;
+       width: 100%;
+       transform: rotate(2deg);
+}
+
+.imgclgcent img {
+    transform: rotate(
+0deg
+);
+    border: 4px solid #ff008e;
+}
+
+.mainheadstop {
+    text-align: left;
+}
+
+
+.imgclgcent img {
+    width: 100%;
+}
+
+.midcontents img {
+        width: 84%;
+	    max-width: 376px;
+}
+
+.mainheadstop .subhdblack{
+	    font-size: 25px;
+}
+
+.tinderhmbanner .mobilequal {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+.tinderhmbanner .desktopqual {
+    display: none;
+}
+
+.transpabuts {
+    margin: 27px auto auto;
+    padding: 6px;
+}
+
+.tinderhmbanner {
+    height: 58vh;
+}
+
+.midcontents {
+    -ms-flex-item-align: end!important;
+    align-self: flex-end!important;
+	    margin-bottom: 30px;
+}
+
+.grdpinbgsa {
+    padding: 40px 0 70px 0;
+    background-image: -webkit-linear-gradient( 
+8deg
+ , #070d55, #070d55, #26115a, #46145f, #8b1b6b, #bd2173, #dc2478, #ed267b,#fa267c,#fa267c );
+}
+
+.darktct .taglnsd br {
+    display: none;
+}
+
+.collargeswithtab ul.nav-pills li.nav-item {
+    margin: 0 10px 0 0;
+}
+
+.collargeswithtab ul.nav-pills li.nav-item .nav-link {
+    font-size: 16px;
+}
+
+.collargeswithtab ul.nav-pills {
+    text-align: left;
+}
+
+.lightgrys {
+    padding: 30px 0;
+}
+
+.imgclgcent {
+    margin-top: 31px;
+}
+
+.igfeedous div {
+    padding: 6px;
+}
+
+
+
+.mainheadstop .subhdblack .tuhds {
+    width: 124px;
+    margin-bottom: 15px;
+}
+
+.mainheadstop .subhdblack .tumntors {
+    width: 196px;
+    margin-bottom: 15px;
+}
+
+.mainheadstop .subhdblack.pnkhd .slyngd {
+    width: 159px;
+    margin-bottom: 15px;
+}
+
+.mainheadstop .subhdblack .tumntors.tugiigs {
+    width: 144px;
+}
+
+.collargeswithtab {
+    padding-top: 15px;
+}
+
+.darktct .mainheadstop .subhdblack span img {
+    width: 97px;
+	    bottom: -8px;
+}
+
+.tndighere.grdpinbgsa.darktct .mainheadstop .subhdblack {
+    margin-bottom: 15px;
+}
+
+.grdpinbgsa.darktct .mainheadstop .subhdblack {
+    margin-bottom: 25px;
+}
+
+.partyare .collrges {
+    padding-top: 30px;
+}
+
+.meetourmnt.grdpinbgsa.darktct .taglnsd {
+    margin: 0;
+}
+
+.tndighere {
+    margin-bottom: 47px;
+}
+
+.blackpart ul li{
+	margin: auto 12%;
+}
+
+.meetourmnt.grdpinbgsa.darktct {
+    padding-bottom: 0;
+}
+
+.tinderhmbanner .transpabuts {
+    background: #ffffffc2;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.threegridscrls {
+    display: none;
+}
+
+.mainheadstop .subhdblack.smallbdtx {
+    font-size: 17px;
+}
+
+.mainheadstop .subhdblack.smallbdtx br.nosh {
+    display: none;
+}
+
+.mainheadstop .subhdblack.smallbdtx .emojs {
+    width: 19px;
+    position: relative;
+    top: -5px;
+    margin: 0 1px;
+}
+
+.collrges .mobshow.strght {
+    transform: rotate(0deg);
+}
+
+.partyare {
+    padding-bottom: 0px;
+}
+
+.darktct .mainheadstop .subhdblack.commnty span img {
+    width: 101px;
+    left: 14px;
+}
+
+.darktct  .bolemojis {
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.darktct .bolemojis .emojs {
+    width: 19px;
+    margin: 0 1px;
+}
+
+.icontxctnpats {
+    display: flex;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.icnthmb img {
+    width: 45px;
+}
+
+.iconinfos {
+    margin: auto 3px;
+}
+
+.iconinfos p {
+    font-family: 'Proxima Nova Rg';
+    font-size: 15px;
+	    margin: auto;
+}
+
+.responcontsd .col-lg-6:nth-child(3) .icontxctnpats{
+	    margin-bottom: 20px;
+}
+
+
+ .responcontsd .col-lg-6:nth-child(4) .icontxctnpats{
+	     margin-bottom: 0px;
+ }
+
+.icnthmb {
+    margin: 0 18px;
+}
+
+.rolesresponse .mainheadstop .subhdblack.pnkhd .slyngd {
+    width: 194px;
+}
+
+.responcontsd {
+    padding-top: 15px;
+}
+
+.responcontsd .col-lg-3:last-child .icontxctnpats {
+    margin-bottom: 0px;
+}
+
+.meetourmnt.grdpinbgsa.darktct.innercomnity {
+    background-image: -webkit-linear-gradient( 
+33deg
+ , #070d55, #070d55, #26115a, #46145f, #8b1b6b, #bd2173, #dc2478, #ed267b,#fa267c,#fa267c );
+}
+
+.tndighere.grdpinbgsa.darktct .mainheadstop .subhdblack.lowbolds {
+    font-family: 'Proxima Nova Rg';
+}
+
+
+.tndighere.grdpinbgsa.darktct.workshops .mainheadstop .subhdblack.lowbolds.midtex span img {left: 0;width: 54px;bottom: -7px;}
+
+.worksdemosets {
+    padding-bottom: 56px;
+}
+
+.worksdemosets:nth-child(1) .mobsldsshow {
+    padding-top: 11px;
+}
+
+.worksdemosets .mobsldsshow .item {
+    border: 3px solid #fff;
+}
+
+.worksdemosets .mobsldsshow .owl-theme .owl-dots {
+    bottom: -33px;
+    position: absolute;
+}
+
+.worksdemosets:last-child {
+    padding-bottom: 20px;
+}
+
+.tndighere.workshops {
+    margin-bottom: 0;
+}
+
+.vdobatchs img {
+    width: 100%;
+}
+
+.vdobatchs {
+    padding-bottom: 61px;
+}
+
+.grdpinbgsa.darktct .mainheadstop .subhdblack.lowbolds{
+	font-size: 25px;
+}
+
+.grdpinbgsa.darktct .subhdblack.tidigin span img{
+	width: 176px;
+    left: 5px;
+	bottom: -10px;
+}
+
+.tndighere.grdpinbgsa.darktct.workshops .mainheadstop .subhdblack.lowbolds.midtex.evnts span img {
+    width: 69px;
+    left: 4px;
+}
+
+.tndighere.grdpinbgsa.darktct.workshops .mainheadstop .subhdblack.lowbolds.midtex.mrch span img {
+    width: 66px;
+    left: 3px;
+}
+
+.grdpinbgsa.darktct .subhdblack.craters span img {
+    width: 84px;
+    bottom: -10px;
+    left: 11px;
+}
+
+.grdpinbgsa.darktct.workshops .worksdemosets:nth-child(1) .mobsldsshow {
+    padding-top: 15px;
+}
+
+.grdpinbgsa.darktct.workshops .worksdemosets {
+    padding-bottom: 45px;
+}
+
+.grdpinbgsa.darktct.workshops .worksdemosets .mobsldsshow {
+    padding: 10px 0;
+}
+
+.grdpinbgsa.darktct.workshops {
+    padding: 30px 0 0px 0;
+}
+
+.lightgrys.rolesresponse.batchreal {
+    padding-bottom: 48px;
+}
+
+.innercomnity.darktct .mainheadstop .subhdblack.commnty {
+    font-size: 25px;
+}
+
+.innercomnity.darktct .mainheadstop .subhdblack.commnty span img {
+    width: 100px;
+    left: 15px;
+    bottom: -8px;
+}
+
+.lightgrys.rolesresponse .mainheadstop .subhdblack.pnkhd .slyngd {
+    width: 294px;
+}
+
+
+ }
+ 
+ 
+ 
+ @media only screen and (min-width: 768px) and (max-width: 900px) { 
+ 
+ .signupbgas .desktopqual {
+    width: 260%;
+    z-index: -2;
+    left: -981px;
+}
+
+.signbtnshows {
+    width: 59%;
+}
+
+.tinderhmbanner .desktopqual {
+    width: 186%;
+    left: -372px;
+}
+
+.signupbgas{
+	    background-size: cover;
+}
+
+.singnformsbgs {
+    background-size: cover;
+}
+
+ }
+ 
+ 
+ @media only screen and (min-width: 903px) and (max-width: 1024px) { 
+  .signupbgas{
+	    background-size: cover;
+}
+
+  .signupbgas .desktopqual {
+   width: 138%;
+   left: -200px;
+}
+
+.tinderhmbanner .desktopqual {
+    width: 152%;
+    left: -335px;
+}
+.singnformsbgs {
+    background-size: cover;
+}
+
+ }
+ 
+ 
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+	
+	.tinderhmbanner {
+    height: 54vh;
+}
+
+	}
+	
+	
+	/* 2340x1080 pixels at 476ppi */
+@media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) {
+		
+		.tinderhmbanner {
+    height: 54vh;
+}
+
+		}
+	
+	
+	@media only screen and (min-width: 412px) and (orientation: portrait) { 
+	.tinderhmbanner {
+    height: 59vh;
+}
+
+.threegridscrls{
+	height: 413px;
+}
+	}
+	
+
+
+ @media only screen and (min-width: 1400px) and (max-width: 2500px) { 
+ .tinderhmbanner{
+	 height:91vh;
+ }
+ }
